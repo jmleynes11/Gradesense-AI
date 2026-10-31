@@ -1,0 +1,40 @@
+{
+  "name": "gradesense-ai-server",
+  "version": "1.0.0",
+  "description": "GradeSense AI MERN capstone backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "diagnose:essay": "node utils/diagnoseEssayAi.js",
+    "seed": "node utils/seed.js",
+    "migrate:subjects": "node utils/migrateClassesToSubjects.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.11.0",
+    "mongodb": "^7.3.0",
+    "mongoose": "^9.7.1",
+    "multer": "^2.0.2",
+    "openai": "^6.15.0",
+    "p-queue": "^9.3.0",
+    "pdf-parse": "^2.4.5",
+    "pdfkit": "^0.17.2",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

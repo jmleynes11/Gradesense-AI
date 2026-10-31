@@ -1,0 +1,6 @@
+
+> gradesense-ai-server@1.0.0 start
+> node server.js
+
+◇ injected env (4) from .env // tip: ⌘ suppress logs { quiet: true }
+Server listening on port 5000

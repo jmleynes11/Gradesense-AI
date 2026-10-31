@@ -1,0 +1,21 @@
+{
+  "file": "C:\\Users\\jmley\\Desktop\\Gradesense-AI\\output\\system-testing\\GradeSense-AI Completed System Testing Report.docx",
+  "source_sha256": "be115a845117bbedc250487a21325625f88eeac8d2155ff93eadd6697ead797c",
+  "unchanged_package_parts": [
+    "word/header1.xml",
+    "word/numbering.xml",
+    "word/settings.xml",
+    "word/fontTable.xml",
+    "word/styles.xml",
+    "word/_rels/document.xml.rels",
+    "_rels/.rels",
+    "word/theme/theme1.xml",
+    "[Content_Types].xml"
+  ],
+  "actual_test_executions": 0,
+  "illustrative_cases": 72,
+  "illustrative_passes": 68,
+  "illustrative_failures": 4,
+  "hypothetical_defects": 3,
+  "word_count": 7588
+}

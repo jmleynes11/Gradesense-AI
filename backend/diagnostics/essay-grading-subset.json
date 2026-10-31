@@ -1,0 +1,889 @@
+{
+  "timestamp": "2026-10-19T06:27:17.635Z",
+  "synthetic": true,
+  "question": {
+    "_id": "synthetic-matter-question",
+    "type": "essay",
+    "points": 10,
+    "text": "Explain how solids, liquids, and gases differ in shape, volume, and particle behavior.",
+    "suggestedAnswer": "Solids keep their shape and volume, with closely packed particles vibrating in place. Liquids keep their volume but take their container's shape as particles slide past one another. Gases have no fixed shape or volume; widely spaced particles move freely and fill the container.",
+    "rubric": {
+      "criteria": [
+        {
+          "criterion": "Solid: fixed shape and volume; tightly packed particles vibrate in place",
+          "maxScore": 3
+        },
+        {
+          "criterion": "Liquid: fixed volume, container shape; close particles slide past each other",
+          "maxScore": 3
+        },
+        {
+          "criterion": "Gas: no fixed shape or volume; separated particles move freely and fill container",
+          "maxScore": 4
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "name": "correct",
+      "answer": "Solids keep their shape and volume, with closely packed particles vibrating in place. Liquids keep their volume but take their container's shape as particles slide past one another. Gases have no fixed shape or volume; widely spaced particles move freely and fill the container.",
+      "expectedMin": 9,
+      "expectedMax": 10,
+      "score": 10,
+      "aiStatus": "graded",
+      "passed": true,
+      "feedback": "The student’s response fully addresses all aspects of the rubric, providing correct, clear, and complete descriptions for solids, liquids, and gases.",
+      "rubricBreakdown": {
+        "criteria": [
+          {
+            "criterion": "Solid: fixed shape and volume; tightly packed particles vibrate in place",
+            "maxScore": 3,
+            "score": 3,
+            "feedback": "Fully covers the required features of solids—fixed shape and volume, tightly packed particles vibrating in place.",
+            "evidence": [
+              "Solids keep their shape and volume, with closely packed particles vibrating in place."
+            ]
+          },
+          {
+            "criterion": "Liquid: fixed volume, container shape; close particles slide past each other",
+            "maxScore": 3,
+            "score": 3,
+            "feedback": "Accurately describes liquids—fixed volume, takes container shape, particles slide past each other.",
+            "evidence": [
+              "Liquids keep their volume but take their container's shape as particles slide past one another."
+            ]
+          },
+          {
+            "criterion": "Gas: no fixed shape or volume; separated particles move freely and fill container",
+            "maxScore": 4,
+            "score": 4,
+            "feedback": "Comprehensively explains gases—no fixed shape or volume, widely spaced particles move freely and fill the container.",
+            "evidence": [
+              "Gases have no fixed shape or volume; widely spaced particles move freely and fill the container."
+            ]
+          }
+        ],
+        "score": 10,
+        "maxScore": 10
+      },
+      "strengths": [
+        "Correctly identifies shape and volume characteristics of each state",
+        "Describes particle motion behavior for solids, liquids, and gases"
+      ],
+      "weaknesses": [],
+      "missingOrIncorrectConcepts": [],
+      "suggestions": [],
+      "validationIssues": [],
+      "totals": {
+        "totalPossiblePoints": 10,
+        "score": 10,
+        "percentage": 100,
+        "finalScore": 10,
+        "finalPercentage": 100,
+        "passStatus": "passed"
+      }
+    },
+    {
+      "name": "paraphrased_correct",
+      "answer": "In a solid, the particles are held close together and only jiggle around their positions, so both its size and form stay the same. In a liquid, nearby particles can move around each other: its amount of space stays the same, while its outline follows the vessel. Gas particles are far apart and travel freely, spreading throughout whatever vessel holds them, so neither their outline nor occupied space is fixed.",
+      "expectedMin": 9,
+      "expectedMax": 10,
+      "score": null,
+      "aiStatus": "pending_review",
+      "passed": false,
+      "feedback": "Pending teacher review because AI essay grading is unavailable.",
+      "rubricBreakdown": {},
+      "strengths": [],
+      "weaknesses": [],
+      "missingOrIncorrectConcepts": [],
+      "suggestions": [],
+      "validationIssues": [
+        "evaluation_not_graded",
+        "score_outside_expected_range",
+        "rubric_totals_disagree",
+        "deductions_not_explained"
+      ],
+      "totals": {
+        "totalPossiblePoints": 10,
+        "score": null,
+        "percentage": null,
+        "finalScore": null,
+        "finalPercentage": null,
+        "passStatus": "not_applicable"
+      }
+    },
+    {
+      "name": "minor_omission",
+      "answer": "Solids keep their shape and volume because tightly packed particles vibrate in place. Liquids retain their volume and take the shape of the container. Gases have neither fixed shape nor volume; their widely separated particles move freely and fill the container.",
+      "expectedMin": 8.5,
+      "expectedMax": 9.75,
+      "score": 9,
+      "aiStatus": "graded",
+      "passed": true,
+      "feedback": "The student demonstrated a solid understanding of the basic properties of solids, liquids, and gases. The answer is complete for solids and gases but missing an explicit mention of particle sliding in liquids, leading to a small deduction.",
+      "rubricBreakdown": {
+        "criteria": [
+          {
+            "criterion": "Solid: fixed shape and volume; tightly packed particles vibrate in place",
+            "maxScore": 3,
+            "score": 3,
+            "feedback": "Student fully described solids: fixed shape and volume with tightly packed particles vibrating in place.",
+            "evidence": [
+              "Solids keep their shape and volume because tightly packed particles vibrate in place."
+            ]
+          },
+          {
+            "criterion": "Liquid: fixed volume, container shape; close particles slide past each other",
+            "maxScore": 3,
+            "score": 2,
+            "feedback": "Student correctly identified liquids’ fixed volume and container shape but omitted the key point about particle motion (sliding past each other).",
+            "evidence": [
+              "Liquids retain their volume and take the shape of the container."
+            ]
+          },
+          {
+            "criterion": "Gas: no fixed shape or volume; separated particles move freely and fill container",
+            "maxScore": 4,
+            "score": 4,
+            "feedback": "Student accurately explained gases: no fixed shape or volume, widely separated particles move freely and fill the container.",
+            "evidence": [
+              "Gases have neither fixed shape nor volume; their widely separated particles move freely and fill the container."
+            ]
+          }
+        ],
+        "score": 9,
+        "maxScore": 10
+      },
+      "strengths": [
+        "Accurate description of solids’ shape, volume, and particle vibration.",
+        "Clear explanation of gases’ lack of fixed shape/volume and freely moving particles.",
+        "Correct mention of liquids’ fixed volume and container shape."
+      ],
+      "weaknesses": [
+        "Did not describe particle sliding behavior in liquids.",
+        "Minor omission of particle motion detail for liquids."
+      ],
+      "missingOrIncorrectConcepts": [
+        "Particle sliding in liquids"
+      ],
+      "suggestions": [
+        "Add a brief statement that liquid particles are close together but able to slide past one another, which accounts for the liquid’s flow and ability to take container shape."
+      ],
+      "validationIssues": [],
+      "totals": {
+        "totalPossiblePoints": 10,
+        "score": 9,
+        "percentage": 90,
+        "finalScore": 9,
+        "finalPercentage": 90,
+        "passStatus": "passed"
+      }
+    },
+    {
+      "name": "mostly_correct_missing_details",
+      "answer": "Solids have a fixed shape and volume, with particles packed close together. Liquids have a fixed volume but take the shape of their container. Gases have no fixed shape or volume and fill their container.",
+      "expectedMin": 6,
+      "expectedMax": 8.5,
+      "score": 7,
+      "aiStatus": "graded",
+      "passed": true,
+      "feedback": "The student’s answer covers the basic macroscopic properties of solids, liquids, and gases but lacks the key microscopic descriptions of particle behavior required by the rubric. Each section earns partial credit; a complete answer would also note particle vibration in solids, particle sliding in liquids, and particle freedom in gases.",
+      "rubricBreakdown": {
+        "criteria": [
+          {
+            "criterion": "Solid: fixed shape and volume; tightly packed particles vibrate in place",
+            "maxScore": 3,
+            "score": 2,
+            "feedback": "The answer correctly states that solids have a fixed shape and volume and that their particles are tightly packed, but it does not mention that the particles vibrate in place as required by the criterion.",
+            "evidence": [
+              "Solids have a fixed shape and volume, with particles packed close together."
+            ]
+          },
+          {
+            "criterion": "Liquid: fixed volume, container shape; close particles slide past each other",
+            "maxScore": 3,
+            "score": 2,
+            "feedback": "The answer correctly identifies that liquids have a fixed volume and assume the shape of their container, but it omits the essential point that the close particles slide past one another.",
+            "evidence": [
+              "Liquids have a fixed volume but take the shape of their container."
+            ]
+          },
+          {
+            "criterion": "Gas: no fixed shape or volume; separated particles move freely and fill container",
+            "maxScore": 4,
+            "score": 3,
+            "feedback": "The answer correctly states that gases have no fixed shape or volume and that they fill the container, but it fails to mention that the particles are separated and move freely.",
+            "evidence": [
+              "Gases have no fixed shape or volume and fill their container."
+            ]
+          }
+        ],
+        "score": 7,
+        "maxScore": 10
+      },
+      "strengths": [
+        "Correct identification of fixed shape/volume for solids",
+        "Correct identification of fixed volume and container shape for liquids",
+        "Correct identification of lack of fixed shape/volume for gases"
+      ],
+      "weaknesses": [
+        "Missing mention of particle vibration in solids",
+        "Missing mention of particles sliding in liquids",
+        "Missing mention of separated, freely moving particles in gases"
+      ],
+      "missingOrIncorrectConcepts": [
+        "Particles vibrate in place in solids",
+        "Close particles slide past each other in liquids",
+        "Separated particles move freely in gases"
+      ],
+      "suggestions": [
+        "Include particle behavior details in each state: vibrate for solids, slide for liquids, move freely for gases."
+      ],
+      "validationIssues": [],
+      "totals": {
+        "totalPossiblePoints": 10,
+        "score": 7,
+        "percentage": 70,
+        "finalScore": 7,
+        "finalPercentage": 70,
+        "passStatus": "failed"
+      }
+    },
+    {
+      "name": "one_correct_concept",
+      "answer": "Solids have a fixed shape. Their volume expands constantly and their particles are far apart moving freely. Liquids and gases both have fixed shapes and cannot change their volume because their particles never move.",
+      "expectedMin": 0.5,
+      "expectedMax": 2,
+      "score": 1,
+      "aiStatus": "graded",
+      "passed": true,
+      "feedback": "The answer correctly identifies that solids have a fixed shape but otherwise contains several misconceptions about volume and particle behavior for all three states of matter. The response misses key points about volume, particle packing, and motion in liquids and gases, and incorrectly claims that liquids and gases have fixed shapes. A revised answer should include all essential features for each state.",
+      "rubricBreakdown": {
+        "criteria": [
+          {
+            "criterion": "Solid: fixed shape and volume; tightly packed particles vibrate in place",
+            "maxScore": 3,
+            "score": 1,
+            "feedback": "You correctly noted that solids have a fixed shape, but did not mention their fixed volume or that the particles are tightly packed and only vibrate. All aspects are required for full credit.",
+            "evidence": [
+              "Solids have a fixed shape."
+            ]
+          },
+          {
+            "criterion": "Liquid: fixed volume, container shape; close particles slide past each other",
+            "maxScore": 3,
+            "score": 0,
+            "feedback": "Your description of liquids is incorrect. Liquids maintain a fixed volume, take the shape of their container, and have closely packed particles that can slide past each other.",
+            "evidence": [
+              "Liquids and gases both have fixed shapes and cannot change their volume because their particles never move."
+            ]
+          },
+          {
+            "criterion": "Gas: no fixed shape or volume; separated particles move freely and fill container",
+            "maxScore": 4,
+            "score": 0,
+            "feedback": "Your description of gases is incorrect. Gases have no fixed shape or volume and their particles move freely and fill the container.",
+            "evidence": [
+              "Liquids and gases both have fixed shapes and cannot change their volume because their particles never move."
+            ]
+          }
+        ],
+        "score": 1,
+        "maxScore": 10
+      },
+      "strengths": [
+        "Correctly identified solids as having a fixed shape."
+      ],
+      "weaknesses": [
+        "Incorrect claim that solids’ volume expands constantly.",
+        "Incorrect claim that solids’ particles are far apart and move freely.",
+        "Incorrect claim that liquids and gases have fixed shapes and cannot change their volume.",
+        "Incorrect claim that particles never move in liquids and gases."
+      ],
+      "missingOrIncorrectConcepts": [
+        "Solids have fixed volume and tightly packed vibrating particles.",
+        "Liquids have fixed volume, adopt container shape, and have close particles that can slide past each other.",
+        "Gases have no fixed shape or volume, have widely spaced particles that move freely and fill the container."
+      ],
+      "suggestions": [
+        "Explain that solids maintain both a fixed shape and volume, with particles tightly packed and only vibrating.",
+        "Explain that liquids have a fixed volume and take the shape of their container, with particles close together that can slide past one another.",
+        "Explain that gases have no fixed shape or volume; particles are widely spaced and move freely to fill the container."
+      ],
+      "validationIssues": [],
+      "totals": {
+        "totalPossiblePoints": 10,
+        "score": 1,
+        "percentage": 10,
+        "finalScore": 1,
+        "finalPercentage": 10,
+        "passStatus": "failed"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "correct_vs_paraphrased_correct",
+      "tolerance": 1,
+      "passed": false
+    }
+  ],
+  "logs": [
+    {
+      "event": "grading_started",
+      "requestId": "b6bde916-21fc-47ad-8d63-61712cd873a4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1,
+      "maxScore": 10,
+      "criteriaCount": 3,
+      "answerCharacters": 278,
+      "lessonCharacters": 278,
+      "contextCompacted": false,
+      "studentAnswer": {
+        "characters": 278,
+        "fingerprint": "9031e5f8096fee7db3e7264b68e831573f8d35779624257d6e969801c499a7c8",
+        "content": "[redacted]"
+      },
+      "referenceAnswer": {
+        "characters": 278,
+        "fingerprint": "9031e5f8096fee7db3e7264b68e831573f8d35779624257d6e969801c499a7c8",
+        "content": "[redacted]"
+      },
+      "criterionMaxScores": [
+        3,
+        3,
+        4
+      ],
+      "scorePrecision": 2,
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "provider_started",
+      "requestId": "b6bde916-21fc-47ad-8d63-61712cd873a4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 3,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "retries": 0
+    },
+    {
+      "event": "provider_response",
+      "requestId": "b6bde916-21fc-47ad-8d63-61712cd873a4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1584,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "providerRequestId": "req_01m59dcrm6ek8vhrfkre1rwtfv",
+      "finishReason": "stop",
+      "tokenUsage": {
+        "queue_time": 0.340517463,
+        "prompt_tokens": 1317,
+        "prompt_time": 0.081123072,
+        "completion_tokens": 584,
+        "completion_time": 0.691451419,
+        "total_tokens": 1901,
+        "total_time": 0.772574491,
+        "completion_tokens_details": {
+          "reasoning_tokens": 336
+        }
+      }
+    },
+    {
+      "event": "grading_completed",
+      "requestId": "b6bde916-21fc-47ad-8d63-61712cd873a4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1584,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "score": 10,
+      "maxScore": 10,
+      "percentage": 100,
+      "feedback": {
+        "characters": 149,
+        "fingerprint": "7ae1255bf8c35bfecfa7c48e1370f482cbec7daa52c3ab7a079ff5dfe0bfffad",
+        "content": "[redacted]"
+      },
+      "criterionScores": [
+        {
+          "score": 3,
+          "maxScore": 3
+        },
+        {
+          "score": 3,
+          "maxScore": 3
+        },
+        {
+          "score": 4,
+          "maxScore": 4
+        }
+      ],
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "grading_started",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 0,
+      "maxScore": 10,
+      "criteriaCount": 3,
+      "answerCharacters": 412,
+      "lessonCharacters": 278,
+      "contextCompacted": false,
+      "studentAnswer": {
+        "characters": 412,
+        "fingerprint": "dc9ed7890f471979c7cbaff1ba551320a00fb0b7f88854cbaa4ffde5e968aa64",
+        "content": "[redacted]"
+      },
+      "referenceAnswer": {
+        "characters": 278,
+        "fingerprint": "9031e5f8096fee7db3e7264b68e831573f8d35779624257d6e969801c499a7c8",
+        "content": "[redacted]"
+      },
+      "criterionMaxScores": [
+        3,
+        3,
+        4
+      ],
+      "scorePrecision": 2,
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "provider_started",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 0,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "retries": 0
+    },
+    {
+      "event": "provider_response",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1395,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "providerRequestId": "req_01m59dddfse3nt1fncpye42j06",
+      "finishReason": "stop",
+      "tokenUsage": {
+        "queue_time": 0.359625329,
+        "prompt_tokens": 1345,
+        "prompt_time": 0.079579955,
+        "completion_tokens": 710,
+        "completion_time": 0.744082952,
+        "total_tokens": 2055,
+        "total_time": 0.823662907,
+        "completion_tokens_details": {
+          "reasoning_tokens": 420
+        }
+      }
+    },
+    {
+      "event": "provider_retry",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1395,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "reason": "INVALID_ESSAY_EVALUATION",
+      "validationRule": "criteria[0].unsupported_evidence",
+      "status": 502
+    },
+    {
+      "event": "provider_started",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1395,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 2,
+      "retries": 1
+    },
+    {
+      "event": "provider_response",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 3552,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 2,
+      "providerRequestId": "req_01m59ddevhet19zmdecgjzyq0a",
+      "finishReason": "stop",
+      "tokenUsage": {
+        "queue_time": 0.316183691,
+        "prompt_tokens": 1189,
+        "prompt_time": 0.061619559,
+        "completion_tokens": 1378,
+        "completion_time": 1.558064111,
+        "total_tokens": 2567,
+        "total_time": 1.6196836700000001,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1085
+        }
+      }
+    },
+    {
+      "event": "provider_failed",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 3552,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "status": 502,
+      "code": "INVALID_ESSAY_EVALUATION",
+      "errorType": "Error",
+      "validationRule": "overall_feedback_required"
+    },
+    {
+      "event": "fallback_started",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 3553,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "attempt": 1
+    },
+    {
+      "event": "provider_started",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 3553,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "attempt": 1,
+      "retries": 0
+    },
+    {
+      "event": "provider_failed",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 4122,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "status": 429,
+      "code": "credit_balance_exhausted",
+      "errorType": "Error"
+    },
+    {
+      "event": "grading_pending_review",
+      "requestId": "123e9637-17b8-4b00-ad2a-0832a7176a78",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 4122,
+      "reason": "no_valid_provider_evaluation"
+    },
+    {
+      "event": "grading_started",
+      "requestId": "d0628e3e-e1a3-4002-b174-e06521d85501",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1,
+      "maxScore": 10,
+      "criteriaCount": 3,
+      "answerCharacters": 262,
+      "lessonCharacters": 278,
+      "contextCompacted": false,
+      "studentAnswer": {
+        "characters": 262,
+        "fingerprint": "6aa7f92b5b29e73cbebd6a93f7e2b40e739bd2e7d442d59a93acae2927760a3d",
+        "content": "[redacted]"
+      },
+      "referenceAnswer": {
+        "characters": 278,
+        "fingerprint": "9031e5f8096fee7db3e7264b68e831573f8d35779624257d6e969801c499a7c8",
+        "content": "[redacted]"
+      },
+      "criterionMaxScores": [
+        3,
+        3,
+        4
+      ],
+      "scorePrecision": 2,
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "provider_started",
+      "requestId": "d0628e3e-e1a3-4002-b174-e06521d85501",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "retries": 0
+    },
+    {
+      "event": "provider_response",
+      "requestId": "d0628e3e-e1a3-4002-b174-e06521d85501",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1422,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "providerRequestId": "req_01m59de51de1m98yjfj8hvfk5r",
+      "finishReason": "stop",
+      "tokenUsage": {
+        "queue_time": 0.340066088,
+        "prompt_tokens": 1313,
+        "prompt_time": 0.083968717,
+        "completion_tokens": 746,
+        "completion_time": 0.794072377,
+        "total_tokens": 2059,
+        "total_time": 0.878041094,
+        "completion_tokens_details": {
+          "reasoning_tokens": 411
+        }
+      }
+    },
+    {
+      "event": "grading_completed",
+      "requestId": "d0628e3e-e1a3-4002-b174-e06521d85501",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1422,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "score": 9,
+      "maxScore": 10,
+      "percentage": 90,
+      "feedback": {
+        "characters": 239,
+        "fingerprint": "647c1dc05cd196162849aef04b05fcdc872edd57a1069b4fe7e93f0df4be7275",
+        "content": "[redacted]"
+      },
+      "criterionScores": [
+        {
+          "score": 3,
+          "maxScore": 3
+        },
+        {
+          "score": 2,
+          "maxScore": 3
+        },
+        {
+          "score": 4,
+          "maxScore": 4
+        }
+      ],
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "grading_started",
+      "requestId": "c6497d8e-d2da-4ee9-9bbb-902e3f386387",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 0,
+      "maxScore": 10,
+      "criteriaCount": 3,
+      "answerCharacters": 204,
+      "lessonCharacters": 278,
+      "contextCompacted": false,
+      "studentAnswer": {
+        "characters": 204,
+        "fingerprint": "9e77608afa5fcf788297cd35a557731b53600fadc8583979046c5dc956e72bb8",
+        "content": "[redacted]"
+      },
+      "referenceAnswer": {
+        "characters": 278,
+        "fingerprint": "9031e5f8096fee7db3e7264b68e831573f8d35779624257d6e969801c499a7c8",
+        "content": "[redacted]"
+      },
+      "criterionMaxScores": [
+        3,
+        3,
+        4
+      ],
+      "scorePrecision": 2,
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "provider_started",
+      "requestId": "c6497d8e-d2da-4ee9-9bbb-902e3f386387",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 0,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "retries": 0
+    },
+    {
+      "event": "provider_response",
+      "requestId": "c6497d8e-d2da-4ee9-9bbb-902e3f386387",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 2114,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "providerRequestId": "req_01m59detbbep193smhxeznd19p",
+      "finishReason": "stop",
+      "tokenUsage": {
+        "queue_time": 0.314294516,
+        "prompt_tokens": 1306,
+        "prompt_time": 0.069711013,
+        "completion_tokens": 1097,
+        "completion_time": 1.145345798,
+        "total_tokens": 2403,
+        "total_time": 1.215056811,
+        "completion_tokens_details": {
+          "reasoning_tokens": 696
+        }
+      }
+    },
+    {
+      "event": "grading_completed",
+      "requestId": "c6497d8e-d2da-4ee9-9bbb-902e3f386387",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 2114,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "score": 7,
+      "maxScore": 10,
+      "percentage": 70,
+      "feedback": {
+        "characters": 337,
+        "fingerprint": "d2a646723e813f4b61c4994f36d5366ea091f9751ffd298d300721a94fe08554",
+        "content": "[redacted]"
+      },
+      "criterionScores": [
+        {
+          "score": 2,
+          "maxScore": 3
+        },
+        {
+          "score": 2,
+          "maxScore": 3
+        },
+        {
+          "score": 3,
+          "maxScore": 4
+        }
+      ],
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "grading_started",
+      "requestId": "321624f1-b7db-4b8e-8664-26a6b62315e4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1,
+      "maxScore": 10,
+      "criteriaCount": 3,
+      "answerCharacters": 215,
+      "lessonCharacters": 278,
+      "contextCompacted": false,
+      "studentAnswer": {
+        "characters": 215,
+        "fingerprint": "5ef980a0becad723c82299f17faeaaccddb09e6d902e92b4cf5b5ab43779d483",
+        "content": "[redacted]"
+      },
+      "referenceAnswer": {
+        "characters": 278,
+        "fingerprint": "9031e5f8096fee7db3e7264b68e831573f8d35779624257d6e969801c499a7c8",
+        "content": "[redacted]"
+      },
+      "criterionMaxScores": [
+        3,
+        3,
+        4
+      ],
+      "scorePrecision": 2,
+      "contentLogging": "redacted"
+    },
+    {
+      "event": "provider_started",
+      "requestId": "321624f1-b7db-4b8e-8664-26a6b62315e4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 1,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "retries": 0
+    },
+    {
+      "event": "provider_response",
+      "requestId": "321624f1-b7db-4b8e-8664-26a6b62315e4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 2599,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "providerRequestId": "req_01m59dffjbe4v84hzwv5ewe5wa",
+      "finishReason": "stop",
+      "tokenUsage": {
+        "queue_time": 0.424825543,
+        "prompt_tokens": 1303,
+        "prompt_time": 0.09093847,
+        "completion_tokens": 1851,
+        "completion_time": 1.88930822,
+        "total_tokens": 3154,
+        "total_time": 1.98024669,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1382
+        }
+      }
+    },
+    {
+      "event": "grading_completed",
+      "requestId": "321624f1-b7db-4b8e-8664-26a6b62315e4",
+      "assessmentId": "synthetic-matter-assessment",
+      "questionId": "synthetic-matter-question",
+      "elapsedMs": 2600,
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "attempt": 1,
+      "score": 1,
+      "maxScore": 10,
+      "percentage": 10,
+      "feedback": {
+        "characters": 407,
+        "fingerprint": "88dc7f2828cf5f691270a51b8cc0bbe74d7baa174c2e853af6b11dcc6da6a79c",
+        "content": "[redacted]"
+      },
+      "criterionScores": [
+        {
+          "score": 1,
+          "maxScore": 3
+        },
+        {
+          "score": 0,
+          "maxScore": 3
+        },
+        {
+          "score": 0,
+          "maxScore": 4
+        }
+      ],
+      "contentLogging": "redacted"
+    }
+  ]
+}

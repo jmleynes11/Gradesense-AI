@@ -1,0 +1,10 @@
+
+> gradesense-ai-client@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173 --strictPort
+
+
+  VITE v8.0.16  ready in 296 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  press h + enter to show help
+9:29:33 AM [vite] (client) [optimizer] bundling dependencies...

@@ -1,0 +1,1793 @@
+PAGE 1
+ 
+TECHNICAL TESTING REPORT  
+ILLUSTRATIVE AND UNVERIFIED — NO ACTUAL TEST EXECUTION. All example outcomes, timings, defects, tester references and 
+environment assumptions are hypothetical. Unknown identities, dates and build information remain placeholders. Actual executions: 0. 
+Title : GradeSense AI System Testing 
+Group Name : [Group name] 
+Technical Evaluators (IT Experts): [IT evaluator names and credentials - unverified] 
+Instructions : 
+1)This report is to be done and tested by the programmers and system analysts of the group and 10 IT experts .  
+2) Fill out the details before starting the testing procedure . LIST ALL THE MODULES / FUNCTIONALITY OF YOUR SYSTEM, DELETE 
+THOSE WHO ARE NOT INCLUDED IN YOUR SYSTEM. (YOU CAN ALSO GET THEM FROM YOUR MIDTERM PROGRESS REPORT IF 
+AVAILABLE) 
+3. Record and document the testing specially when there are bugs or errors.  
+4) Functional Testing / Test Case or / Testing Plan (copy paste when you are done to your documentation Testing and Procedures) 
+5) When the testing is completed , errors are fixed then you can proceed to SYSTEM EVALUATION.  
+
+PAGE 2
+ 
+COMPREHENSIVE SOFTWARE TECHNICAL TESTING REPORT 
+1. Document Information 
+Item Details 
+Project/System Name GradeSense AI 
+Project Title GradeSense AI grade management and AI assessment 
+system 
+Version [Tested application version / commit - unverified] 
+Testing Date [Actual testing date - not executed] 
+Testing Environment Illustrative isolated environment; all Section 6 
+specifications assumed/unverified 
+Tested By [Tester names / roles - unverified]; [10 IT expert names 
+- unverified] 
+Developer/Development 
+Team 
+[Development team / institution] 
+Test Report Version 1.0 illustrative draft 
+Status Draft - illustrative/unverified; actual execution and 
+approval pending 
+ 
+
+PAGE 3
+ 
+2. Executive Summary 
+2.1 Purpose of Testing 
+This is an illustrative, unverified system testing report for GradeSense AI. It provides executable scenarios, proposed acceptance criteria 
+and hypothetical outcomes. No system tests, benchmarks, expert evaluations or defect retests were performed for this report. Actual 
+executions recorded: 0. The example set contains 72 cases, 68 illustrative passes and 4 illustrative failures across 3 hypothetical defects; it 
+does not establish deployment readiness. 
+2.2 Testing Objectives 
+The planned testing objectives are to: 
+1. Verify that all major system functions operate according to specifications. 
+2. Identify defects, errors, and unexpected system behavior. 
+3. Evaluate system performance under defined conditions. 
+4. Verify compatibility across supported devices, browsers, and operating environments. 
+5. Assess system security and access-control mechanisms. 
+6. Verify database operations and data integrity. 
+7. Evaluate the system against applicable software quality standards. 
+8. Confirm corrections through actual retesting before closing any verified defect. 
+9. Establish readiness only after real execution evidence and authorized review. 
+ 
+3. System Overview 
+3.1 System Description 
+System Name: GradeSense AI 
+Description: 
+
+PAGE 4
+ 
+GradeSense AI is a MERN grade-management and assessment application with administrator, teacher and student roles. It 
+supports subjects and enrollment, manual/AI assessment drafts, publication, timed student submissions, objective and rubric-
+based essay grading, teacher review, analytics, notifications, Quiz Arena, and PDF/Excel reports. The available project files 
+establish feature context only; deployed behavior remains unverified. 
+3.2 Intended Users 
+User Type Description Access Level 
+Administrator Manage accounts, 
+dashboards and 
+audit/monitoring features. 
+Admin-authorized 
+records; 
+backup/restore is 
+mock only. 
+Faculty/Staff 
+(Teacher) 
+Manage owned subjects, 
+assessments, 
+submissions and 
+reviewed scores. 
+Owned teacher 
+records and enrolled 
+learners. 
+Student/User Take assigned 
+assessments; review 
+own grades and 
+feedback. 
+Enrolled 
+published/closed 
+assessments and 
+own records. 
+3.3 Major System Modules 
+No. Module/Feature Description 
+1 User Authentication Registration, login/logout, JWT and role guards. 
+2 Dashboard Teacher, student and admin summary views. 
+
+PAGE 5
+ 
+No. Module/Feature Description 
+3 User Management Admin account management and role visibility. 
+4 Subjects and Enrollment Teacher-owned subjects and assigned learners. 
+5 Assessment Lifecycle Draft, edit, review, publish, close and timing. 
+6 AI Quiz Generation Lesson upload/text, validation and bounded fallback. 
+7 Submission and Grading Objective keys, rubric essays and pending review. 
+8 Teacher Review Score overrides, reasons and final grade reconciliation. 
+9 Reports and Analytics PDF/Excel exports, history and progress. 
+10 Notifications and 
+Announcements 
+Role-appropriate messages and destinations. 
+11 Quiz Arena Game participation, attempts and results. 
+12 Database and Audit MongoDB persistence, indexes and audit records; admin recovery 
+mocks. 
+ 
+
+PAGE 6
+ 
+4. Testing Scope 
+4.1 In-Scope 
+The following components are covered by the illustrative scenarios: 
+● User registration and authentication 
+● Login/logout 
+● User account management 
+● Subjects, assessments, submission, grading, teacher overrides and Quiz Arena 
+● Database operations 
+● Input validation 
+● Error handling 
+● Navigation 
+● API integration 
+● Role, ownership, enrollment, answer-key confidentiality and token checks 
+● Performance 
+● Browser/device compatibility 
+● Data storage and retrieval 
+● Teacher/student grade views, analytics, PDF/Excel reports and notifications 
+4.2 Out-of-Scope 
+The following are excluded from the example execution totals: 
+Live cloud/provider verification; production migration; destructive production changes; real student records; institution-specific 
+grading policies; legal/compliance certification; full penetration testing; expert/user acceptance ratings; statistical AI fairness or 
+accuracy claims. 
+Real backup/restore and disaster recovery are unverified: admin backup/restore handlers are mocks. Scanned-PDF OCR, cross-instance 
+generation idempotency, long-duration availability and infrastructure failover need separate evidence. Programming content may be 
+assessed as text; secure execution of arbitrary student code is not assumed. 
+
+PAGE 7
+ 
+5. Testing Methodology 
+Proposed approach: requirements-based scenarios, synthetic fixtures, boundary and negative cases, controlled provider fault injection, 
+database reconciliation and evidence capture. All expected behaviors are proposed acceptance criteria, not proof of implementation. 
+Requirements → Planning → Case Development → Actual Execution → Defect Verification → Correction → Retesting → 
+Evaluation 
+Testing Types 
+Testing Type Purpose Performed? 
+Unit Testing Existing test files provide design context; 
+no suite run for this report. 
+Not 
+executed 
+Integration Testing Verify score/report and 
+provider/persistence boundaries. 
+Not 
+executed 
+System Testing Exercise full teacher-to-student 
+assessment workflow. 
+Not 
+executed 
+Functional Testing Execute F-001..020 against approved 
+requirements. 
+Not 
+executed 
+Usability Testing Use UI-001..006 and documented user 
+tasks. 
+Not 
+executed 
+Performance Testing Use PT-001..005; all numbers are 
+illustrative. 
+Not 
+executed 
+Security Testing Use SEC-001..006 and privacy checks. Not 
+executed 
+Compatibility Testing Use BR/DEV matrices with exact 
+versions recorded. 
+Not 
+executed 
+
+PAGE 8
+ 
+Testing Type Purpose Performed? 
+Database Testing Use DB-001..006 and reconciliation 
+checks. 
+Not 
+executed 
+API Testing Use API-001..008 with controlled faults. Not 
+executed 
+Regression Testing Use REG-001..005 after verified 
+changes. 
+Not 
+executed 
+User Acceptance 
+Testing 
+Programmer/analyst and 10-IT-expert 
+evaluation remains pending. 
+Not 
+executed 
+Status legend throughout: ILL-PASS and ILL-FAIL mean illustrative, unverified outcomes only. Example means a fabricated execution 
+narrative. Assumed means an environment or data proposal, not an observed configuration. Actual status for every scenario is NOT 
+EXECUTED. The template requirement for 10 IT experts remains pending; no expert participation is claimed. 
+6. Test Environment 
+6.1 Hardware Environment 
+Component Specification 
+Processor Assumed: client four-core CPU; server 2 vCPU. Actual: [verify]. 
+RAM Assumed: client 8 GB; API server 4 GB; DB 4 GB. Actual: [verify]. 
+Storage Assumed: client SSD; server/DB 20 GB available. Actual: [verify]. 
+
+PAGE 9
+ 
+Component Specification 
+Display Resolution Assumed: desktop 1920×1080; laptop 1366×768; mobile 390×844 CSS 
+px. 
+Network Assumed: 20 Mbps client link; 30–80 ms RTT; stable test LAN/cloud 
+route. 
+Other Assumed: isolated test host, synthetic records, one API instance; no 
+production changes. 
+6.2 Software Environment 
+Software Version 
+Operating System Assumed: Windows 11 client; Linux server [exact release]. 
+Web Browser Assumed: Chrome/Edge/Firefox/Safari [exact versions pending]. 
+Programming 
+Language 
+Assumed: JavaScript; Node.js [exact supported version]; no 
+runtime verified. 
+Framework Assumed: React/Vite client; Express API; exact installed 
+versions [verify lockfiles]. 
+Database Assumed: MongoDB [version]; Mongoose [version]; required 
+indexes present [verify]. 
+Web Server Assumed: Node/Express [version], local API port 5000; proxy 
+[verify]. 
+API/LLM Service Assumed: Groq primary, OpenAI fallback; models [record actual 
+configured IDs]. Stub responses for deterministic faults. 
+
+PAGE 10
+ 
+Software Version 
+Other Dependencies Assumed: JWT, bcryptjs, Multer, Socket.IO, PDFKit, ExcelJS 
+and document parsers [versions pending]. 
+All entries in 6.1 and 6.2 are illustrative environment assumptions. Freeze exact runtime, browser, database, dependency and model 
+versions against [build/commit] before actual execution. Do not use production credentials or records. 
+7. Test Data 
+Assumed synthetic fixture only. No fixture was loaded or test record created for this report. Use reserved .test email addresses, artificial 
+names and reviewed lesson text; reset the isolated database between mutation scenarios. 
+Data Category Description Number of Records 
+User Accounts Assumed: 1 admin, 2 teachers and 
+100 students; artificial names and 
+.test emails. 
+103 proposed 
+Sample Transactions Assumed: controlled 
+assessment/submission fixtures; 
+reset per case. 
+25 assessment summaries; 100 
+submissions proposed 
+Test 
+Questions/Content 
+Assumed: A-grade 12 items/40 pts; 
+A-AI 10 items/36 pts; no real lesson 
+uploads. 
+22 primary fixture items 
+Database Records Assumed: subject A/T1 and B/T2; 
+enrollments and notifications 
+generated only in test DB. 
+2 subjects; dependent records [fixture-
+specific] 
+
+PAGE 11
+ 
+Data Category Description Number of Records 
+Other Assumed: 4 readable file types, 
+scanned control, 
+malformed/empty/oversize controls 
+and provider stubs. 
+4 valid files; 5 invalid/boundary files 
+proposed 
+Fixture arithmetic: A-grade has ten two-point objective items and two ten-point essays, maximum 40. A proposed run yields 18 + 8 + 6 = 32 
+(80%); changing the second essay to 8 yields 34 (85%). Separate A-AI fixture requests 5 MC, 2 true/false, 1 identification and 2 essays, 
+maximum 36. These fixtures must not be conflated. 
+8. Functional Test Cases 
+Test Case Format 
+Field Details 
+Test Case ID TC-F-014 — illustrative/unverified 
+Module Reports 
+Test Objective Reconcile final teacher-reviewed grades across UI, PDF and Excel. 
+Precondition Continue from TC-F-013; report generation is a hypothetical failing example. 
+Test Input PDF and Excel exports for A-grade and S1. 
+Test Steps 1. Save override. 2. Generate fresh PDF and Excel files. 3. Compare per-item 
+score, final total, percentage and student identity with UI and database. 
+
+PAGE 12
+ 
+Field Details 
+Expected 
+Result 
+Both exports match the final reviewed 34/40, 85%, owner and subject filter. 
+Actual Result Example: exports retained 32/40 and 80% while UI showed 34/40; BUG-001. 
+No actual execution. 
+Status ILL-FAIL; actual status NOT EXECUTED 
+Remarks Hypothetical BUG-001, High priority. Tester [name - unverified]; date [not 
+executed]; build [commit]; evidence [not captured]. 
+Functional Testing Summary 
+Test Case 
+ID 
+Module Test Description Expected Result Illustrative 
+Outcome 
+ILL Status 
+TC-F-001 Authenticati
+on 
+Sign in as each of three 
+roles; sign out. 
+Correct role dashboard; 
+protected routes require 
+a token. 
+Example: all three 
+dashboards opened; 
+logout returned to 
+login. 
+ILL-PASS 
+TC-F-002 Authenticati
+on 
+Submit wrong password 
+and an unknown account. 
+Reject both attempts 
+without creating a 
+session or revealing 
+account existence. 
+Example: generic 
+credential errors; 
+neither attempt 
+created a session. 
+ILL-PASS 
+TC-F-003 Registration Register a valid student; 
+repeat the same email. 
+Create one student 
+account; reject duplicate 
+email; never grant admin 
+role. 
+Example: one 
+student created; 
+duplicate refused; 
+role remained 
+student. 
+ILL-PASS 
+
+PAGE 13
+ 
+Test Case 
+ID 
+Module Test Description Expected Result Illustrative 
+Outcome 
+ILL Status 
+TC-F-004 Subjects T1 creates subject A and 
+enrolls S1. 
+Persist ownership and 
+membership; subject B 
+owned by T2 stays 
+inaccessible. 
+Example: S1 saw A; 
+T1 could not edit B. 
+ILL-PASS 
+TC-F-005 Drafts Save a manually authored 
+assessment and reopen 
+it. 
+Save as draft with 
+unpublished flag; retain 
+questions and 
+instructions. 
+Example: draft 
+persisted; student 
+lists omitted it. 
+ILL-PASS 
+TC-F-006 Publishing Publish a reviewed draft 
+using the publish action. 
+Only explicit publication 
+exposes the assessment 
+to enrolled students. 
+Example: S1 could 
+load the published 
+quiz; unenrolled S2 
+could not. 
+ILL-PASS 
+TC-F-007 AI 
+generation 
+Generate exact requested 
+question counts from 
+lesson text. 
+Return validated 5 MC, 2 
+true/false, 1 identification 
+and 2 essays; save one 
+draft. 
+Example: 10 valid 
+questions; correct 
+type counts; draft 
+stayed unpublished. 
+ILL-PASS 
+TC-F-008 Lesson 
+upload 
+Generate from equivalent 
+PDF, DOCX, PPTX and 
+TXT lessons. 
+Extract readable text in 
+order; reject unreadable 
+source before provider 
+use. 
+Example: four 
+readable fixtures 
+processed; scanned-
+only PDF required 
+OCR. 
+ILL-PASS 
+TC-F-009 AI 
+validation 
+Return duplicate choices, 
+missing keys or 
+unsupported answers. 
+Reject invalid 
+candidates; accept only 
+grounded, unique, 
+schema-valid questions. 
+Example: invalid 
+candidates rejected; 
+bounded recovery 
+returned a valid draft. 
+ILL-PASS 
+
+PAGE 14
+ 
+Test Case 
+ID 
+Module Test Description Expected Result Illustrative 
+Outcome 
+ILL Status 
+TC-F-010 Submission S1 completes an open 
+published assessment. 
+Persist one submission 
+with answers, time and 
+student/assessment 
+references. 
+Example: one 
+submitted record; 
+teacher list displayed 
+the same answers. 
+ILL-PASS 
+TC-F-011 Objective 
+grading 
+Grade correct, incorrect 
+and accepted-alias 
+answers. 
+Award full item points 
+only for normalized 
+accepted answers; 
+incorrect is zero. 
+Example: 9 of 10 
+two-point items 
+correct; objective 
+subtotal 18/20. 
+ILL-PASS 
+TC-F-012 Essay 
+grading 
+Grade two essays and 
+reconcile the mixed 
+assessment total. 
+Whole-number rubric 
+scores within maxima; 
+totals equal 32/40 and 
+80%. 
+Example: essays 
+8/10 and 6/10; 
+objective 18/20; total 
+32/40, 80%. 
+ILL-PASS 
+TC-F-013 Teacher 
+review 
+Override the second 
+essay from 6 to 8 with a 
+reason. 
+Store reviewer/reason; 
+total becomes 34/40, 
+85%; preserve teacher 
+decision. 
+Example: review UI 
+showed 34/40 and 
+85%; reason retained 
+after refresh. 
+ILL-PASS 
+TC-F-014 Reports Export PDF and Excel 
+after the teacher override. 
+Both exports match the 
+final reviewed 34/40, 
+85%, owner and subject 
+filter. 
+Example: exports 
+retained 32/40 and 
+80% while UI 
+showed 34/40; BUG-
+001. 
+ILL-FAIL 
+
+PAGE 15
+ 
+Test Case 
+ID 
+Module Test Description Expected Result Illustrative 
+Outcome 
+ILL Status 
+TC-F-015 Privacy Try cross-student, cross-
+teacher and draft detail 
+access. 
+Deny unauthorized 
+records; authorized 
+student payload omits 
+keys and source text. 
+Example: 
+unauthorized 
+requests denied; 
+student detail 
+contained no answer 
+keys. 
+ILL-PASS 
+TC-F-016 Notification
+s 
+Publish, submit and 
+grade; open the 
+notification panel. 
+Correct recipient and 
+destination; read state 
+persists; duplicate 
+events do not multiply. 
+Example: S1 
+received 
+assessment/grade 
+notices; T2 received 
+none. 
+ILL-PASS 
+TC-F-017 Quiz Arena Join an active game, 
+answer and view results. 
+Valid participation; 
+scores and rank agree 
+with stored attempts; no 
+cross-subject leak. 
+Example: S1 joined 
+once; leaderboard 
+score matched the 
+saved attempt. 
+ILL-PASS 
+TC-F-018 Lists and 
+filters 
+Page through assessment 
+summaries; filter by 
+subject/status. 
+Correct 20-item page 
+and hasMore; draft filter 
+includes AI drafts; no 
+lesson bulk. 
+Example: pages 
+returned 20 then 5 
+unique summaries; 
+filters matched. 
+ILL-PASS 
+TC-F-019 Duplicate 
+handling 
+Double-click generation 
+and retry submission. 
+Avoid duplicate 
+persisted drafts and 
+submissions for the 
+same logical operation. 
+Example: one shared 
+in-process 
+generation; one 
+submission record 
+after retry. 
+ILL-PASS 
+
+PAGE 16
+ 
+Test Case 
+ID 
+Module Test Description Expected Result Illustrative 
+Outcome 
+ILL Status 
+TC-F-020 Assessmen
+t window 
+Open before start, after 
+close and after time 
+expires. 
+Enforce server-
+authoritative availability 
+and duration; preserve 
+permitted answer state. 
+Example: 
+early/closed starts 
+denied; expired 
+attempt marked 
+timeExpired. 
+ILL-PASS 
+All functional summary outcomes are illustrative/unverified. Detailed prerequisites, inputs, steps and evidence requirements are in Appendix 
+A. The full-format example above repeats TC-F-014 and is counted once. 
+9. Input Validation Testing 
+Test 
+ID 
+Input Field Test Condition Expected Behavior Illustrative 
+Behavior 
+ILL Status 
+IV-001 Full name Submit blank or 
+whitespace-only 
+name. 
+Reject; no account 
+created. 
+Example: 
+required-name 
+message; no 
+record. 
+ILL-PASS 
+IV-002 Email Submit student@ 
+and then 
+duplicate .test 
+email. 
+Reject malformed and 
+duplicate email. 
+Example: both 
+rejected; count 
+unchanged. 
+ILL-PASS 
+
+PAGE 17
+ 
+Test 
+ID 
+Input Field Test Condition Expected Behavior Illustrative 
+Behavior 
+ILL Status 
+IV-003 Password Submit fewer 
+than required 
+characters; 
+mismatch 
+confirmation. 
+Enforce configured 
+rule; show clear 
+mismatch. 
+Example: 
+rejected; no 
+session. Exact 
+minimum 
+[verify]. 
+ILL-PASS 
+IV-004 Essay points Submit -1, text, 
+and 2.5 as essay 
+maximum. 
+Accept only valid 
+positive whole-number 
+maxima. 
+Example: invalid 
+maxima rejected 
+before save. 
+ILL-PASS 
+IV-005 Assessment 
+title 
+Save blank title 
+while bypassing 
+client validation. 
+Server rejects required 
+field; no empty 
+assessment. 
+Example: 
+validation 
+response; no 
+draft saved. 
+ILL-PASS 
+IV-006 Lesson file Upload .exe, 
+corrupt DOCX 
+and empty TXT. 
+Reject 
+unsupported/unreadabl
+e/empty data before AI. 
+Example: clear 
+error; provider 
+call count 0. 
+ILL-PASS 
+IV-007 Extracted 
+lesson 
+Submit 25,001 
+cleaned 
+characters. 
+Reject with 
+DOCUMENT_TOO_LA
+RGE; never truncate 
+silently. 
+Example: 
+rejected; no AI 
+request or draft. 
+ILL-PASS 
+IV-008 Upload size Upload exactly 
+10 MiB and 10 
+MiB + 1 byte. 
+Apply file limit; 
+oversized request 
+cannot reach AI. 
+Example: 
+readable 
+boundary 
+accepted; larger 
+file rejected. 
+ILL-PASS 
+
+PAGE 18
+ 
+Input cases IV-001 through IV-008 are independent illustrative checks. Inspect both client messaging and server rejection; bypass client 
+validation when testing server controls. Example outcomes do not establish that validation is enforced. 
+10. Database Testing 
+10.1 Database Operations 
+Test ID Operation Test Expected Result Illustrative Result ILL Status 
+DB-001 INSERT Save a reviewed valid 
+draft; count linked 
+question records. 
+One owned draft; correct 
+points and references. 
+Example: draft and 
+12 linked 
+questions 
+reconciled. 
+ILL-PASS 
+DB-002 READ Load owned versus 
+other teacher records; 
+paginate 25 rows. 
+Only authorized records; 
+stable distinct pages. 
+Example: 20 + 5 
+records; no foreign 
+subject data. 
+ILL-PASS 
+DB-003 UPDATE Override E2 6→8; 
+reload submission and 
+feedback. 
+Persist final 34/40, 
+reviewer and reason. 
+Example: values 
+retained; no 
+unrelated answer 
+changed. 
+ILL-PASS 
+DB-004 DELETE Delete an unused 
+teacher-owned draft; 
+reload IDs. 
+Draft disappears from 
+active views; no exposed 
+orphan content. 
+Example: draft 
+unavailable; 
+related-data policy 
+[verify]. 
+ILL-PASS 
+DB-005 Uniquenes
+s 
+Insert duplicate email 
+and 
+assessment/student 
+pair. 
+Indexes prevent duplicate 
+records; controlled 
+response. 
+Example: both 
+duplicate writes 
+rejected. 
+ILL-PASS 
+
+PAGE 19
+ 
+Test ID Operation Test Expected Result Illustrative Result ILL Status 
+DB-006 Mock 
+recovery 
+Call admin 
+backup/restore in an 
+isolated DB; compare 
+counts. 
+Explicit mock response; no 
+claim of real backup or 
+restore. 
+Example: mock 
+message; counts 
+unchanged; 
+recovery 
+unverified. 
+ILL-PASS 
+10.2 Data Integrity 
+Planned integrity checks; none verified: 
+● [Not executed] MongoDB _id uniqueness and correct record identity. 
+● [Not executed] Mongoose reference checks; MongoDB does not supply relational foreign keys. 
+● [Not executed] No orphaned subject, assessment, question, submission or feedback references. 
+● [Not executed] Required title, role, student and assessment references. 
+● [Not executed] Valid types, integer essay scores and bounded maxima. 
+● [Not executed] Unique email and assessment/student submission combination. 
+● [Not executed] Inject partial write failures and reconcile records; do not assume multi-document transactions. 
+● [Not executed] Admin mock response is not recovery evidence; actual restore excluded. 
+ 
+11. API / External Service Testing 
+The API scenarios use synthetic payloads and controlled stubs. A future live run must capture provider/model, correlation ID, status, latency 
+and redacted errors; never record keys, lesson text or student answers in shared logs. 
+
+PAGE 20
+ 
+Test ID API/Service Request or Fault Expected 
+Response 
+Illustrative 
+Response 
+ILL Status 
+API-001 Assessment 
+list 
+GET summary 
+page 1, limit 20, 
+teacher token. 
+items/page/li
+mit/hasMore; 
+no 
+lesson/versio
+n bulk. 
+Example: valid 
+20-item summary 
+envelope. 
+ILL-PASS 
+API-002 Student 
+detail 
+GET permitted 
+assessment, then 
+another subject ID. 
+Authorized 
+detail omits 
+keys; 
+unauthorized 
+request 
+denied. 
+Example: 
+permitted data 
+only; second 
+request denied. 
+ILL-PASS 
+API-003 AI primary POST generate-
+quiz with valid 
+lesson and counts. 
+Validated 
+exact counts; 
+save one 
+unpublished 
+draft. 
+Example: valid 
+Groq-stub 
+response saved 
+once. 
+ILL-PASS 
+API-004 AI fallback Inject Groq 429, 
+then valid OpenAI 
+output. 
+Switch 
+directly to 
+fallback; 
+validate once 
+before 
+persistence. 
+Example: one 
+call per provider; 
+one draft. 
+ILL-PASS 
+API-005 AI hard 
+failure 
+Inject Groq 
+401/configuration 
+error. 
+Return 
+actionable 
+error; do not 
+activate 
+fallback. 
+Example: 
+fallback calls 0; 
+saved drafts 0. 
+ILL-PASS 
+
+PAGE 21
+ 
+Test ID API/Service Request or Fault Expected 
+Response 
+Illustrative 
+Response 
+ILL Status 
+API-006 AI validation Inject invalid 
+JSON, then invalid 
+recovery output. 
+At most two 
+Groq 
+attempts, 
+one eligible 
+fallback; 
+never save 
+invalid 
+output. 
+Example: 
+bounded calls; 
+only validated 
+fallback draft 
+saved. 
+ILL-PASS 
+API-007 AI 
+timeout/canc
+el 
+Exhaust quiz 
+budget; separately 
+disconnect all 
+callers. 
+Budget 
+returns 504; 
+cancellation 
+aborts work, 
+no later 
+fallback/save
+. 
+Example: timeout 
+504; cancelled 
+run saved 0 
+drafts. 
+ILL-PASS 
+API-008 Essay 
+provider 
+outage 
+Fail Groq and 
+OpenAI while 
+grading a nonblank 
+essay. 
+Keep 
+score/final 
+total pending 
+review; never 
+invent zero. 
+Example: 
+pending_review; 
+no published final 
+score. 
+ILL-PASS 
+API Evaluation 
+● [Not executed] Valid authorized requests and response schema. 
+● [Not executed] Invalid identifiers, missing fields and invalid page limits. 
+● [Not executed] Missing/expired tokens and ownership checks. 
+● [Not executed] Attempt timeouts and total quiz budget exhaustion. 
+● [Not executed] Stable error shape and actionable UI state. 
+● [Not executed] Schema, exact counts, uniqueness and lesson grounding. 
+
+PAGE 22
+ 
+● [Not executed] 429, Retry-After and bounded fallback. 
+● [Not executed] Both-provider failure, cancellation and pending teacher review. 
+Configured quiz defaults in project documentation are a 65,000 ms total AI budget and 20,000 ms attempt cap; actual deployment values are 
+[verify]. An AI budget does not bound document extraction/database time. Essay grading uses a separate provider workflow; both-provider 
+essay failure must remain pending teacher review rather than a fabricated zero. 
+12. Performance Testing 
+Test ID Performance Metric Test Condition Proposed 
+Criterion 
+Illustrative 
+Measurement 
+ILL Status 
+PT-001 Dashboard load 1 user; 30 loads, after 
+warm-up. 
+Proposed p95 
+≤3.0 s. 
+Example: p95 1.90 
+s; not measured. 
+ILL-PASS 
+PT-002 Summary API 1 user; 200 completed 
+requests, same 20-row 
+payload. 
+Proposed p95 
+≤1.5 s; errors 
+≤1%. 
+Example: mean 
+.62 s; p95 1.20 s; 
+0/200 errors. 
+ILL-PASS 
+PT-003 Database read 200 indexed ownership-
+filtered reads; seeded 
+10,000 submissions. 
+Proposed p95 
+≤200 ms; capture 
+explain plan. 
+Example: p95 85 
+ms; not measured. 
+ILL-PASS 
+PT-004 Concurrent load 50 virtual users; 10 min; 
+2,000 requests; AI 
+stubbed. 
+Proposed p95 
+≤3.0 s; errors 
+≤1%; no lost 
+grades. 
+Example: p95 2.40 
+s; 4/2,000 errors; 
+no loss. 
+ILL-PASS 
+PT-005 Stress load 100 virtual users; 10 
+min; 2,000 requests; 
+same mix. 
+Proposed p95 
+≤5.0 s; errors 
+≤2%; no lost 
+grades. 
+Example: p95 7.80 
+s; 64/2,000 errors; 
+BUG-002. 
+ILL-FAIL 
+
+PAGE 23
+ 
+Performance Metrics 
+● Illustrative average response time: 0.62 s for PT-002 only; unverified. 
+● Illustrative minimum response time: 0.21 s for the same PT-002 sample; unverified. 
+● Illustrative maximum response time: 1.84 s for the same PT-002 sample; unverified. 
+● Assumed concurrent users: 1 for PT-002; 50 for PT-004; 100 for PT-005. 
+● Illustrative error rate: PT-002 0/200 = 0%; PT-004 4/2,000 = 0.20%; PT-005 64/2,000 = 3.20%. No measurements taken. 
+● Actual system availability: [Not measured]. A short synthetic load example cannot establish uptime or an SLA. 
+Proposed protocol: record [build], [UTC/Asia-Manila timestamps], test runner, host resources and network conditions. Warm up 2 minutes, 
+then run a 10-minute sample per workload. Capture client timings and server/query telemetry separately. Use 20% login/session, 40% 
+list/detail, 20% dashboard and 20% submission requests; stub AI for load isolation, then assess live AI separately. Numerical values below 
+are invented examples. 
+13. Security Testing 
+Test ID Security Area Test Procedure Expected Result Illustrative 
+Result 
+ILL Status 
+SEC-
+001 
+Authentication Wrong password; missing and 
+expired token. 
+Deny access; no 
+token/session issued for 
+failure. 
+Example: 
+protected data 
+withheld. 
+ILL-PASS 
+SEC-
+002 
+Authorization Use student token on admin 
+API; use T1 token on T2 
+records. 
+Enforce role and 
+ownership server-side. 
+Example: both 
+requests denied. 
+ILL-PASS 
+SEC-
+003 
+Passwords Inspect synthetic user storage 
+and API responses. 
+Hash with bcrypt; never 
+expose password/hash 
+to client. 
+Example: hash 
+stored; credential 
+fields omitted. 
+ILL-PASS 
+
+PAGE 24
+ 
+Test ID Security Area Test Procedure Expected Result Illustrative 
+Result 
+ILL Status 
+SEC-
+004 
+Client session Logout, Back, refresh; request 
+API without stored token. 
+Clear local session; 
+protected request 
+denied. 
+Example: login 
+required. Stolen-
+token revocation 
+not established. 
+ILL-PASS 
+SEC-
+005 
+Unsafe input Submit script-like text and 
+object/operator login fields. 
+No script execution or 
+auth bypass; reject 
+invalid types. 
+Example: text 
+inert; malformed 
+credentials 
+rejected. 
+ILL-PASS 
+SEC-
+006 
+Assessment 
+privacy 
+Inspect student detail payload 
+and another student 
+submission URL. 
+No answer 
+keys/source/rubric 
+answers; no cross-
+student data. 
+Example: keys 
+absent; foreign 
+submission 
+denied. 
+ILL-PASS 
+ 
+14. Compatibility Testing 
+Browser Compatibility 
+Browser / ID Versio
+n 
+ILL Result Illustrative Remarks 
+BR-001 
+Chrome 
+[TBD] ILL-PASS Assumed Windows 11. 
+Example: login, quiz, 
+review, exports usable. 
+BR-002 Edge [TBD] ILL-PASS Assumed Windows 11. 
+Example: same 
+workflow completed. 
+
+PAGE 25
+ 
+Browser / ID Versio
+n 
+ILL Result Illustrative Remarks 
+BR-003 Firefox [TBD] ILL-PASS Assumed Windows 11. 
+Example: no blocking 
+interaction failure. 
+BR-004 Safari [TBD] ILL-PASS Assumed macOS 
+[release]. Example: 
+quiz and download 
+workflow usable. 
+Device Compatibility 
+Device / ID Assumed 
+OS / 
+Browser 
+Assumed 
+Screen 
+Size 
+Illustrative Result 
+DEV-001 
+Desktop 
+Assumed 
+Windows 11 
+/ Chrome 
+Assumed 
+1920×1080 
+ILL-PASS; example: 
+workflow usable. 
+DEV-002 
+Laptop 
+Assumed 
+Windows 11 
+/ Edge 
+Assumed 
+1366×768 
+ILL-PASS; example: 
+controls reachable. 
+DEV-003 
+Tablet 
+Assumed 
+iPadOS 
+[release] / 
+Safari 
+Assumed 
+820×1180 
+CSS px 
+ILL-PASS; example: touch 
+workflow usable. 
+DEV-004 
+Smartphon
+e 
+Assumed 
+Android 
+[release] / 
+Chrome 
+Assumed 
+390×844 
+CSS px 
+ILL-FAIL; example: review 
+Save clipped; BUG-003. 
+
+PAGE 26
+ 
+Compatibility IDs: BR-001..004 and DEV-001..004; 8 separate illustrative cases. Browser versions and exact OS releases are placeholders. 
+Repeat login, quiz completion, review and export on each listed combination; record version and device evidence during actual execution. 
+15. Usability and User Interface Testing 
+Test ID Usability Criterion Expected Result Illustrative 
+Result 
+ILL Status 
+UI-001 Navigation Reach assigned 
+assessment in ≤3 
+intentional selections. 
+Example: 
+student 
+reached quiz 
+in 2 
+selections. 
+ILL-PASS 
+UI-002 Readability Labels and grade 
+statuses legible at 200% 
+zoom. 
+Example: key 
+labels legible; 
+focus 
+remained 
+visible. 
+ILL-PASS 
+UI-003 Consistency Same pending/reviewed 
+grade meaning across 
+list/detail. 
+Example: 
+pending label 
+consistent; no 
+false zero. 
+ILL-PASS 
+UI-004 Feedback Show 
+generation/submission 
+pending; prevent 
+accidental duplicate 
+action. 
+Example: 
+progress 
+indicator and 
+disabled 
+submit shown. 
+ILL-PASS 
+
+PAGE 27
+ 
+Test ID Usability Criterion Expected Result Illustrative 
+Result 
+ILL Status 
+UI-005 Error messages Provider/upload failure 
+offers actionable cause 
+and preserves input. 
+Example: file 
+error clear; 
+lesson input 
+retained. 
+ILL-PASS 
+UI-006 Responsive review Teacher reaches Save by 
+touch/keyboard at 390 px 
+width. 
+Example: 
+Save clipped 
+off-screen; 
+BUG-003. 
+ILL-FAIL 
+ 
+16. ISO/IEC 25010 Software Quality Evaluation 
+Use ISO/IEC 25010:2023 as an organizing framework for the nine quality characteristics already listed in this template. This is an illustrative 
+coverage mapping, not a conformance assessment, certification or expert rating. N/E means not evaluated; all nine actual quality 
+evaluations are pending. 
+Quality Characteristic Evaluation Focus Result 
+Functional Suitability Assessment/grading correctness; F-001..020 and IV 
+checks. Illustrative gap: BUG-001; actual evaluation 
+pending. 
+N/E 
+Performance 
+Efficiency 
+PT-001..005; latency, errors and host-resource capture. 
+Illustrative gap: BUG-002; resources unmeasured. 
+N/E 
+Compatibility BR/DEV matrices and interoperable PDF/Excel outputs. 
+Illustrative mobile gap: BUG-003; versions unverified. 
+N/E 
+
+PAGE 28
+ 
+Quality Characteristic Evaluation Focus Result 
+Interaction Capability UI-001..006; navigation, clarity and accessible controls. 
+Illustrative gap: UI-006; user evaluation pending. 
+N/E 
+Reliability DB/API fault handling; pending review; recovery plan. 
+Unverified; real backup/restore excluded. 
+N/E 
+Security SEC-001..006; ownership and answer confidentiality. 
+Unverified; examples are not penetration evidence. 
+N/E 
+Maintainability Existing modular code/test structure; future repeatable 
+fixtures. Not rated; suite not run for this report. 
+N/E 
+Flexibility Environment setup, model configuration and scaled 
+deployment. Not rated; install/scaling not demonstrated. 
+N/E 
+Safety Prevent false grades; human review and correction trail. 
+Not rated; grade-impact risk requires verified review 
+controls. 
+N/E 
+Edition reference: ISO/IEC 25010:2023, second edition, product quality model; 
+https://www.iso.org/standard/78176.html. No numerical quality score is assigned without defined measures and actual 
+observations. ISO mapping rows are excluded from test-case totals. 
+ 
+
+PAGE 29
+ 
+17. Defect / Bug Report 
+Defect ID Module Description Severity Priority Status 
+BUG-001 Grade reports Hypothetical: final UI 
+34/40 (85%); fresh 
+PDF/Excel 32/40 
+(80%); F-014. 
+High (example) High (example) Hypotheti
+cal open; 
+unverified 
+BUG-002 Capacity Hypothetical: PT-005 
+p95 7.80 s; 3.20% 
+errors exceeds 
+proposed stress limits. 
+Medium (example) Medium (example) Hypotheti
+cal open; 
+unverified 
+BUG-003 Mobile review Hypothetical: Save 
+unreachable at 390 px; 
+DEV-004 and UI-006. 
+Medium (example) Medium (example) Hypotheti
+cal open; 
+unverified 
+Severity Classification 
+Severity Description 
+Critical Prevents the system from operating or causes major data/security 
+failure 
+High Major function does not work correctly 
+Medium Function works with limitations or workaround 
+Low Minor defect with limited impact 
+
+PAGE 30
+ 
+Every BUG entry below is hypothetical and unverified; none is a confirmed issue in the current build. Severity describes the example impact 
+only. No actual ticket, fix, developer identity or closure is claimed. Appendix E contains reproducible hypothetical records. 
+18. Corrective Action and Retesting 
+Defect ID Corrective Action Date 
+Fixed 
+Retest 
+Result 
+Final Status 
+BUG-001 Proposed: reconcile all 
+exports to final reviewed 
+scores; add discrepancy 
+check. 
+[Not fixed 
+/ date 
+unknown] 
+NOT 
+EXECUTE
+D; repeat 
+F-013/014 
+and REG-
+005. 
+Unverified example; no closure 
+BUG-002 Proposed: profile slow 
+requests/indexes and 
+bound expensive work; 
+rerun same load. 
+[Not fixed 
+/ date 
+unknown] 
+NOT 
+EXECUTE
+D; repeat 
+PT-
+002/004/00
+5. 
+Unverified example; no closure 
+BUG-003 Proposed: correct 
+responsive 
+container/button 
+reachability and keyboard 
+focus. 
+[Not fixed 
+/ date 
+unknown] 
+NOT 
+EXECUTE
+D; repeat 
+DEV-004 
+and UI-
+006. 
+Unverified example; no closure 
+Corrective actions are proposals only. Date-fixed fields remain placeholders; retest state is NOT EXECUTED. A defect may be closed only 
+after the referenced case passes with retained evidence on a named build. 
+
+PAGE 31
+ 
+19. Regression Testing 
+REG-001..005 show illustrative baseline regression outcomes only. They are not post-fix evidence and do not close BUG-001..003. After 
+any actual correction, rerun these checks plus the affected failing cases, using the same fixture and recorded build. 
+Test ID Baseline Function Illustrative 
+Outcome 
+ILL Status 
+REG-001 Login/logout and role routing Example: 
+three roles 
+routed 
+correctly; no 
+post-fix run. 
+ILL-PASS 
+REG-002 Registration and duplicate 
+prevention 
+Example: 
+valid account 
+created once; 
+no post-fix 
+run. 
+ILL-PASS 
+REG-003 Draft persistence and page 
+filters 
+Example: 
+save/reload/p
+age IDs 
+consistent; no 
+post-fix run. 
+ILL-PASS 
+REG-004 AI drafts and objective/essay 
+totals 
+Example: 
+unpublished 
+draft and 
+32/40 totals; 
+no post-fix 
+run. 
+ILL-PASS 
+
+PAGE 32
+ 
+Test ID Baseline Function Illustrative 
+Outcome 
+ILL Status 
+REG-005 Baseline reports before 
+override 
+Example: 
+both exports 
+show 
+baseline 
+32/40; does 
+not resolve F-
+014. 
+ILL-PASS 
+ 
+20. Testing Results Summary 
+Example 
+Category 
+Example 
+Cases 
+ILL 
+Passe
+d 
+ILL 
+Failed 
+ILL Pass 
+Rate 
+Functional 20 19 1 95.00% 
+Input Validation 8 8 0 100.00% 
+Database 6 6 0 100.00% 
+API 8 8 0 100.00% 
+Performance 5 4 1 80.00% 
+Security 6 6 0 100.00% 
+
+PAGE 33
+ 
+Example 
+Category 
+Example 
+Cases 
+ILL 
+Passe
+d 
+ILL 
+Failed 
+ILL Pass 
+Rate 
+Compatibility 8 7 1 87.50% 
+Usability 6 5 1 83.33% 
+Regression 5 5 0 100.00% 
+TOTAL 
+(illustrative) 
+72 68 4 94.44% 
+Pass Rate Formula 
+Illustrative pass rate = (68 illustrative passes / 72 example cases) × 100 = 94.44%. Actual executions = 0; actual pass rate = not 
+available. 
+The table counts one example outcome per unique ID: F 20, IV 8, DB 6, API 8, PT 5, SEC 6, BR/DEV 8, UI 6 and REG 5. Four failing cases 
+map to three hypothetical defects: F-014 → BUG-001; PT-005 → BUG-002; DEV-004 and UI-006 → BUG-003. Repeated details in 
+Appendices A/E and the full-format case are not additional tests. 
+21. Overall Technical Assessment 
+Overall Testing Result 
+☐ Passed – Ready for Deployment [not assessed] 
+☐ Passed with Minor Issues [not assessed] 
+
+PAGE 34
+ 
+☐ For Further Improvement [actual evaluation pending] 
+☐ Failed – Major Corrections Required [not assessed] 
+Technical Assessment 
+Based on the illustrative scenario set, the proposed verification covers: 
+The assessment lifecycle, score arithmetic, AI validation/fallback, teacher review, ownership, reporting and interface behavior. 
+Hypothetical results show why report reconciliation, capacity and mobile access require explicit checks. No actual functionality, 
+security, AI accuracy or readiness conclusion can be drawn from this report. 
+The hypothetical defects and issues are: 
+One high-severity grade-export discrepancy and two medium-severity capacity/mobile issues. All remain unverified example 
+records with retesting pending. The sample 94.44% pass rate is a document example only. 
+Actual technical assessment: 
+☐ Technically Acceptable   ☐ Acceptable with Minor Revisions   ☐ Requires Further Testing   ☐ Not Acceptable 
+ 
+ 
+ 
+No assessment option is selected. Actual testing, independent review and signed approval are pending. Deployment authorization is not 
+granted by this report. 
+22. Recommendations 
+The following actions are proposed for a future verified testing cycle: 
+1. Freeze [build/commit] and obtain the institution-approved scoring, publication, retention and access requirements before executing 
+the 72 scenarios. 
+
+PAGE 35
+ 
+2. Reproduce any suspected report discrepancy; reconcile final reviewed scores across UI, database, PDF and Excel; retain the 
+teacher review reason and audit evidence. 
+3. Measure realistic concurrency with controlled workloads, payload sizes and AI latency; use actual percentiles and error counts before 
+setting capacity claims. 
+4. Verify mobile access, keyboard navigation and clear pending/error states; use human review for consequential AI scoring and treat 
+integrity indicators as review cues. 
+5. Implement and rehearse real database backup/restore separately from admin mocks; verify privacy controls and provider 
+configuration in the intended deployment. 
+Obtain actual programmer/analyst and 10-IT-expert participation required by the template; attach identities, execution records, corrections, 
+retests and approval signatures only when verified. 
+23. Testing Approval 
+Role Name Signature Date 
+Test 
+Engineer/Tester 
+[Name - 
+unverified] 
+[Unsigned] [Approval date 
+pending] 
+Developer [Name - 
+unverified] 
+[Unsigned] [Approval date 
+pending] 
+Project Leader [Name - 
+unverified] 
+[Unsigned] [Approval date 
+pending] 
+Technical Adviser [Name - 
+unverified] 
+[Unsigned] [Approval date 
+pending] 
+Project Adviser [Name - 
+unverified] 
+[Unsigned] [Approval date 
+pending] 
+
+PAGE 36
+ 
+Approval is pending. All names, signatures and dates below are unknown placeholders; no tester or evaluator identity has been supplied or 
+verified. This illustrative draft must not be represented as an executed or signed report. 
+24. Appendices 
+Appendix A – Test Case Documentation 
+Detailed functional scenarios follow. Each case uses the same hypothetical outcome and ILL status as Section 8. Tester: [Tester name - 
+unverified]; execution date/time: [Not executed]; build: [Build/commit]. Planned evidence is a capture requirement, not an existing 
+attachment. 
+TC-F-001 Authentication 
+Precondition: Active synthetic admin, teacher T1 and student S1; clean browser session. Input: Role accounts from the synthetic fixture; 
+[valid test passwords]. 
+Steps: 1. Sign in as each role in a separate session. 2. Open the dashboard and a protected URL. 3. Sign out and use Back, then refresh. 
+Expected: Correct role dashboard; protected routes require a token. Illustrative/unverified outcome: Example: all three dashboards opened; 
+logout returned to login. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API response and relevant 
+record/export comparison, linked to this ID. 
+TC-F-002 Authentication 
+Precondition: T1 exists; unknown@example.test does not. Input: T1 with a wrong password; unknown@example.test with the same 
+password. 
+Steps: 1. Submit each credential pair. 2. Inspect returned message and session storage. 3. Request a protected endpoint without a token. 
+Expected: Reject both attempts without creating a session or revealing account existence. Illustrative/unverified outcome: Example: generic 
+credential errors; neither attempt created a session. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API 
+response and relevant record/export comparison, linked to this ID. 
+
+PAGE 37
+ 
+TC-F-003 Registration 
+Precondition: Disposable database; registration permitted; no account with new.student@example.test. Input: Synthetic name; unique .test 
+email; valid password; required agreements. 
+Steps: 1. Complete student registration. 2. Sign in. 3. Repeat the same email. 4. Inspect role and account count. 
+Expected: Create one student account; reject duplicate email; never grant admin role. Illustrative/unverified outcome: Example: one student 
+created; duplicate refused; role remained student. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API 
+response and relevant record/export comparison, linked to this ID. 
+TC-F-004 Subjects 
+Precondition: T1 and T2 exist; S1 is not enrolled; subjects A and B have separate owners. Input: Subject A; S1 synthetic user identifier. 
+Steps: 1. Create A as T1. 2. Add S1. 3. Reload as S1. 4. Attempt to edit B as T1. 
+Expected: Persist ownership and membership; subject B owned by T2 stays inaccessible. Illustrative/unverified outcome: Example: S1 saw 
+A; T1 could not edit B. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API response and relevant 
+record/export comparison, linked to this ID. 
+TC-F-005 Drafts 
+Precondition: T1 owns A; S1 is enrolled in A. Input: A-draft; two MC questions at 2 points each; instructions. 
+Steps: 1. Create assessment. 2. Add questions and save. 3. Reopen as T1. 4. Check student list and direct access as S1. 
+Expected: Save as draft with unpublished flag; retain questions and instructions. Illustrative/unverified outcome: Example: draft persisted; 
+student lists omitted it. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API response and relevant 
+record/export comparison, linked to this ID. 
+
+PAGE 38
+ 
+TC-F-006 Publishing 
+Precondition: A-draft is valid and reviewed; S1 enrolled, S2 unenrolled; window is open. Input: A-draft identifier; valid start/end and duration. 
+Steps: 1. Confirm draft is hidden. 2. Publish as T1. 3. Reload as S1 and S2. 4. Inspect publication state. 
+Expected: Only explicit publication exposes the assessment to enrolled students. Illustrative/unverified outcome: Example: S1 could load the 
+published quiz; unenrolled S2 could not. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API response and 
+relevant record/export comparison, linked to this ID. 
+TC-F-007 AI generation 
+Precondition: T1 owns A; provider transport is stubbed or isolated test credentials are configured. Input: Synthetic electricity lesson; counts 
+5/2/1/2; MC/TF/ID worth 2, essays 10. 
+Steps: 1. Supply lesson and counts. 2. Generate once. 3. Inspect type counts, keys, options and source grounding. 4. Check saved draft 
+and student visibility. 
+Expected: Return validated 5 MC, 2 true/false, 1 identification and 2 essays; save one draft. Illustrative/unverified outcome: Example: 10 
+valid questions; correct type counts; draft stayed unpublished. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+TC-F-008 Lesson upload 
+Precondition: Four synthetic lessons contain the same concepts; no real student data. Input: Four files below 10 MiB and 25,000 extracted 
+characters; scanned PDF control. 
+Steps: 1. Upload each readable file separately. 2. Compare extracted concepts. 3. Generate and review. 4. Upload scanned-only control and 
+inspect error and provider call count. 
+Expected: Extract readable text in order; reject unreadable source before provider use. Illustrative/unverified outcome: Example: four 
+readable fixtures processed; scanned-only PDF required OCR. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+
+PAGE 39
+ 
+TC-F-009 AI validation 
+Precondition: Provider stub can return malformed candidates followed by valid recovery output. Input: Candidate with duplicate MC options; 
+candidate missing answerKey; off-topic key. 
+Steps: 1. Inject each invalid response. 2. Run generation. 3. Inspect validation and recovery limits. 4. Confirm invalid questions were never 
+persisted. 
+Expected: Reject invalid candidates; accept only grounded, unique, schema-valid questions. Illustrative/unverified outcome: Example: invalid 
+candidates rejected; bounded recovery returned a valid draft. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+TC-F-010 Submission 
+Precondition: S1 enrolled in A; A-grade published and open; no existing S1 submission. Input: Complete A-grade answers; agreed synthetic 
+start/end times. 
+Steps: 1. Start assessment. 2. Answer each item. 3. Submit once. 4. Reload student history and teacher submissions. 
+Expected: Persist one submission with answers, time and student/assessment references. Illustrative/unverified outcome: Example: one 
+submitted record; teacher list displayed the same answers. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+TC-F-011 Objective grading 
+Precondition: Separate objective fixture with 10 items, each worth 2; fixed reviewed answer keys. Input: Nine correct answers, including one 
+allowed alias, and one wrong answer. 
+Steps: 1. Submit fixture. 2. Compare each answer to teacher keys. 3. Sum item scores. 4. Confirm subtotal and rounding. 
+Expected: Award full item points only for normalized accepted answers; incorrect is zero. Illustrative/unverified outcome: Example: 9 of 10 
+two-point items correct; objective subtotal 18/20. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API 
+response and relevant record/export comparison, linked to this ID. 
+
+PAGE 40
+ 
+TC-F-012 Essay grading 
+Precondition: A-grade: 10 objective items at 2 and two essays at 10; reviewed rubric and lesson. Input: Objective subtotal 18; essay 
+responses E1/E2; valid stub scores 8 and 6. 
+Steps: 1. Submit mixed assessment. 2. Wait for processing to finish. 3. Review criterion sums and bounds. 4. Check teacher, student and 
+stored totals. 
+Expected: Whole-number rubric scores within maxima; totals equal 32/40 and 80%. Illustrative/unverified outcome: Example: essays 8/10 
+and 6/10; objective 18/20; total 32/40, 80%. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API response 
+and relevant record/export comparison, linked to this ID. 
+TC-F-013 Teacher review 
+Precondition: A-grade has the TC-F-012 result; T1 owns A; pending AI task can be delayed. Input: Second essay final score 8; reason: 
+credit for correct supporting explanation. 
+Steps: 1. Open answer review as T1. 2. Set score 8 and reason. 3. Save and reload. 4. Release delayed AI result and confirm it cannot 
+overwrite review. 
+Expected: Store reviewer/reason; total becomes 34/40, 85%; preserve teacher decision. Illustrative/unverified outcome: Example: review UI 
+showed 34/40 and 85%; reason retained after refresh. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API 
+response and relevant record/export comparison, linked to this ID. 
+TC-F-014 Reports 
+Precondition: Continue from TC-F-013; report generation is a hypothetical failing example. Input: PDF and Excel exports for A-grade and S1. 
+Steps: 1. Save override. 2. Generate fresh PDF and Excel files. 3. Compare per-item score, final total, percentage and student identity with 
+UI and database. 
+Expected: Both exports match the final reviewed 34/40, 85%, owner and subject filter. Illustrative/unverified outcome: Example: exports 
+retained 32/40 and 80% while UI showed 34/40; BUG-001. Status: ILL-FAIL. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+
+PAGE 41
+ 
+TC-F-015 Privacy 
+Precondition: T1/T2 own separate subjects; S1/S2 have separate submissions. Input: Another user submission ID; draft ID; published 
+authorized ID. 
+Steps: 1. Exchange IDs in direct requests under each role. 2. Inspect status and payload. 3. Load a permitted student assessment and 
+search for keys, rubric answers and lessonContent. 
+Expected: Deny unauthorized records; authorized student payload omits keys and source text. Illustrative/unverified outcome: Example: 
+unauthorized requests denied; student detail contained no answer keys. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: 
+redacted UI/API response and relevant record/export comparison, linked to this ID. 
+TC-F-016 Notifications 
+Precondition: S1 enrolled in A; T2 has no connection to A; fresh notification fixture. Input: Publication, submission and grading events; 
+repeated same event identifier. 
+Steps: 1. Trigger each event. 2. Open S1 panel. 3. Follow destination and mark read. 4. Reload and replay the same event. 
+Expected: Correct recipient and destination; read state persists; duplicate events do not multiply. Illustrative/unverified outcome: Example: 
+S1 received assessment/grade notices; T2 received none. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+TC-F-017 Quiz Arena 
+Precondition: T1 hosts a synthetic game for A; S1 eligible; S2 unauthorized. Input: Valid game code; one correct and one incorrect 
+response; invalid-code control. 
+Steps: 1. Join as S1. 2. Submit responses. 3. Finish and compare results. 4. Retry invalid code and unauthorized S2 access. 
+Expected: Valid participation; scores and rank agree with stored attempts; no cross-subject leak. Illustrative/unverified outcome: Example: 
+S1 joined once; leaderboard score matched the saved attempt. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+
+PAGE 42
+ 
+TC-F-018 Lists and filters 
+Precondition: A list fixture has exactly 25 teacher-owned assessments and controlled statuses. Input: view=summary; page 1 then 2; limit 
+20; subject A; draft status. 
+Steps: 1. Load page 1 and 2. 2. Compare IDs for omissions/duplicates. 3. Apply filters. 4. Inspect summary payload for unnecessary 
+lesson/version content. 
+Expected: Correct 20-item page and hasMore; draft filter includes AI drafts; no lesson bulk. Illustrative/unverified outcome: Example: pages 
+returned 20 then 5 unique summaries; filters matched. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted UI/API 
+response and relevant record/export comparison, linked to this ID. 
+TC-F-019 Duplicate handling 
+Precondition: Single backend instance; identical teacher/content requests; submission unique index present. Input: Two concurrent identical 
+generation requests; same S1 assessment submitted twice. 
+Steps: 1. Send both generation requests concurrently. 2. Count provider calls and saved drafts. 3. Retry submission. 4. Inspect database 
+count. Cross-instance behavior requires separate validation. 
+Expected: Avoid duplicate persisted drafts and submissions for the same logical operation. Illustrative/unverified outcome: Example: one 
+shared in-process generation; one submission record after retry. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+TC-F-020 Assessment window 
+Precondition: Disposable assessment sessions; agreed timezone; controlled clock offsets. Input: Start minus 1 second; end plus 1 second; 
+duration limit plus 1 second. 
+Steps: 1. Attempt start at each boundary. 2. Run one open attempt past duration. 3. Refresh timer and submit. 4. Inspect availability 
+response and persisted expiry flag. 
+Expected: Enforce server-authoritative availability and duration; preserve permitted answer state. Illustrative/unverified outcome: Example: 
+early/closed starts denied; expired attempt marked timeExpired. Status: ILL-PASS. Actual: NOT EXECUTED. Evidence to capture: redacted 
+UI/API response and relevant record/export comparison, linked to this ID. 
+
+PAGE 43
+ 
+Appendix B – Screenshots of Testing 
+Actual screenshots: [Not captured - no tests executed]. Evidence register for a future run: 
+● [Screenshot F-006] Teacher publish state and enrolled student view; redact personal data. 
+● [Screenshot F-014] Compare final reviewed grade with both exports if a discrepancy is reproduced. 
+● [Screenshot API-008] Provider-failure message and pending-review state; omit keys and answers. 
+● [Screenshot BUG-001..003] Before/after capture on named builds after a verified correction. 
+● [Screenshot retest] Repeated failing case, actual status, tester and timestamp after correction. 
+Appendix C – System Logs 
+Actual logs: [Not collected]. Required future evidence, stored with restricted access: 
+● [Application log] Correlation ID, route, role and result; no raw student responses. 
+● [API log] Provider/model, failure class, retry/fallback, elapsed time and request ID; no API secrets or lesson text. 
+● [Error log] Reproduced failure, stack and sanitized context linked to a verified defect ID. 
+● [Database evidence] Record IDs/counts, score reconciliation and index presence; no production dump. 
+● [Performance evidence] Raw timestamps, request/error counts, percentile method, resources and workload settings. 
+Appendix D – Test Environment 
+Assumed topology only: one React browser client → Express/Node API → isolated MongoDB; outbound Groq and OpenAI connections 
+where enabled. One backend instance for process-local deduplication. Frontend URL [Test URL]; API URL [Test API URL]; database 
+[Isolated test DB]; commit [Build/commit]; run window [Date/time Asia/Manila]; network trace [Evidence path]. No deployment was inspected. 
+Environment verification record: CPU/RAM/storage [verify]; OS [version]; browser [version]; Node/React/Express/MongoDB [exact versions]; 
+dependency lockfile [hash]; indexes [verified list]; TLS/proxy timeout [value]; provider/model IDs [values]; test runner [tool/version]. These 
+are placeholders, not observations. 
+Assumed fault setup: stub provider transport for 429, 401, malformed JSON, timeout and both-provider failure; use controlled clock values 
+for availability checks. Production secrets must not be copied into the report. Record only sanitized configuration and request correlation IDs. 
+
+PAGE 44
+ 
+Source context: local README.md and relevant routes/models/services reviewed as static project material, including Submission, grading, 
+submission review, upload policy and admin mock recovery handlers. Existing test files or prior diagnostic files are not treated as current 
+execution evidence. No application code or database was changed for this report. 
+Appendix E – Defect Documentation 
+All records below are hypothetical/unverified defect documentation. Owners, dates, evidence and fixes remain placeholders. They are 
+examples of reporting practice, not findings from executed tests. 
+ 
+BUG-001 Hypothetical grade report discrepancy 
+Status: hypothetical open/unverified. Reporter [Tester name - unverified]; owner [Developer name]; found date [Not executed]; build 
+[Build/commit]; evidence [Not captured]. Severity High and priority High are illustrative only. 
+Reproduction proposal: use A-grade with objective subtotal 18 and essays 8/6. Confirm baseline 32/40 (80%). Change E2 to 8 with a 
+reason; confirm UI 34/40 (85%). Generate new PDF and Excel exports. Expected: both 34/40 (85%). Hypothetical observed result: both still 
+32/40 (80%). Impact: a five-percentage-point reporting discrepancy. 
+Root cause: unknown/unverified; a stale aggregate or use of an AI score rather than final reviewed score is only a hypothesis. Proposed 
+correction: reconcile the report data path and cache invalidation if relevant. Retest F-013, F-014 and REG-005 on [fixed build], including a 
+late AI completion. No fix or retest performed. 
+BUG-002 Hypothetical stress capacity issue 
+Status: hypothetical open/unverified. Reporter [Tester name - unverified]; owner [Developer name]; date [Not executed]; build [Build/commit]; 
+raw load evidence [Not collected]. Severity Medium and priority Medium are illustrative only. 
+Reproduction proposal: single API instance, assumed 2 vCPU/4 GB RAM, isolated DB, seeded 10,000 submissions; use the Section 12 
+request mix and stub AI. Warm up 2 minutes; run 100 virtual users for 10 minutes. Proposed limits: p95 ≤5.0 s, errors ≤2%. Hypothetical 
+result: p95 7.80 s, 64 errors in 2,000 requests (3.20%). No actual request or timing data exists. 
+
+PAGE 45
+ 
+Root cause: unknown/unverified; inspect traces and indexes before assigning a cause. Proposed correction: optimize demonstrated 
+bottlenecks and bound expensive work. Retest PT-002, PT-004 and PT-005 with the same data/mix and recorded resources. No 
+optimization or retest performed. 
+BUG-003 Hypothetical mobile review control issue 
+Status: hypothetical open/unverified. Reporter [Tester name - unverified]; owner [Developer name]; date [Not executed]; browser/OS [Exact 
+versions]; build [Build/commit]; screenshot [Not captured]. Severity Medium and priority Medium are illustrative only. 
+Reproduction proposal: sign in as T1 on an assumed 390×844 CSS-pixel Android/Chrome viewport; open A-grade answer review; scroll and 
+navigate focus to Save. Expected: Save reachable and activatable by touch and keyboard. Hypothetical result: control clipped outside the 
+visible review container. Same issue is counted in DEV-004 and UI-006. 
+Root cause: unknown/unverified; overflow sizing is a hypothesis. Proposed correction: inspect container width/overflow and button/focus 
+layout. Retest DEV-004/UI-006 at 390 px, then desktop/tablet regression; attach real screenshots and focus evidence. No UI change or 
+retest performed. 

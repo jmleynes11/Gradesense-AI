@@ -1,0 +1,897 @@
+{
+  "parts": {
+    "word/header1.xml": {
+      "size": 1958,
+      "sha256": "ac7a354f12570e764f67a091224a7d67f9348d308ee4cb51e41511628266206e",
+      "policy": "preserve-only"
+    },
+    "word/numbering.xml": {
+      "size": 17435,
+      "sha256": "0a5d092e268f0fbd5adfff73f4efe1b7c03eade7a361be8dfe003e58722fc1f6",
+      "policy": "preserve-only"
+    },
+    "word/settings.xml": {
+      "size": 2189,
+      "sha256": "43446eb227d8f1d77bd22712936a18ef45d3416259a51b37b5fab5eceabf40e1",
+      "policy": "preserve-only"
+    },
+    "word/fontTable.xml": {
+      "size": 1754,
+      "sha256": "825f1ddebd382a85a3c8d9cee903ae545a8e1a10b3ad9780498ee7bccb41839a",
+      "policy": "preserve-only"
+    },
+    "word/styles.xml": {
+      "size": 14070,
+      "sha256": "bf13c130d578dce85a59561b011d8a3754f849538df4d574e16d0797c83497c3",
+      "policy": "preserve-only"
+    },
+    "word/document.xml": {
+      "size": 676224,
+      "sha256": "57d5e37201d87f3e43f22dcb3a00b5c9ec7fc6858495612f7ceee42f95f4269f",
+      "policy": "editable"
+    },
+    "word/_rels/document.xml.rels": {
+      "size": 940,
+      "sha256": "2475d4071c684c7422bf75ae8a6ac25ae52d852308a5161634f4e9c0df596161",
+      "policy": "preserve-only"
+    },
+    "_rels/.rels": {
+      "size": 298,
+      "sha256": "1cc87395d4a229f21c23af406724de12dd9454071925f983e4b648a7b2be8cc5",
+      "policy": "preserve-only"
+    },
+    "word/theme/theme1.xml": {
+      "size": 7643,
+      "sha256": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2",
+      "policy": "preserve-only"
+    },
+    "[Content_Types].xml": {
+      "size": 1300,
+      "sha256": "1b482fbf2b9e96393d0721e1372b976099875888c845496ac8ffc3fcbc4f0b72",
+      "policy": "preserve-only"
+    }
+  },
+  "sections": [
+    "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:headerReference r:id=\"rId6\" w:type=\"default\"/><w:pgSz w:h=\"12240\" w:w=\"15840\" w:orient=\"landscape\"/><w:pgMar w:bottom=\"720\" w:top=\"1440\" w:left=\"1080\" w:right=\"1080\" w:header=\"720\" w:footer=\"720\"/><w:pgNumType w:start=\"1\"/></w:sectPr>"
+  ],
+  "paragraphs": [
+    {
+      "i": 0,
+      "text": "TECHNICAL TESTING REPORT "
+    },
+    {
+      "i": 1,
+      "text": "Title : "
+    },
+    {
+      "i": 2,
+      "text": "Group Name : "
+    },
+    {
+      "i": 3,
+      "text": "Technical Evaluators ( IT Experts ) _____________________________________   "
+    },
+    {
+      "i": 4,
+      "text": "Instructions :"
+    },
+    {
+      "i": 5,
+      "text": "1)This report is to be done and tested by the programmers and system analysts of the group and 10 IT experts . "
+    },
+    {
+      "i": 6,
+      "text": "2) Fill out the details before starting the testing procedure . LIST ALL THE MODULES / FUNCTIONALITY OF YOUR SYSTEM, DELETE THOSE WHO ARE NOT INCLUDED IN YOUR SYSTEM. (YOU CAN ALSO GET THEM FROM YOUR MIDTERM PROGRESS REPORT IF AVAILABLE)"
+    },
+    {
+      "i": 7,
+      "text": "3. Record and document the testing specially when there are bugs or errors. "
+    },
+    {
+      "i": 8,
+      "text": "4) Functional Testing / Test Case or / Testing Plan (copy paste when you are done to your documentation Testing and Procedures)"
+    },
+    {
+      "i": 9,
+      "text": "5) When the testing is completed , errors are fixed then you can proceed to SYSTEM EVALUATION. "
+    },
+    {
+      "i": 10,
+      "text": "COMPREHENSIVE SOFTWARE TECHNICAL TESTING REPORT"
+    },
+    {
+      "i": 11,
+      "text": "1. Document Information"
+    },
+    {
+      "i": 12,
+      "text": ""
+    },
+    {
+      "i": 13,
+      "text": "2. Executive Summary"
+    },
+    {
+      "i": 14,
+      "text": "2.1 Purpose of Testing"
+    },
+    {
+      "i": 15,
+      "text": "This technical testing report presents the procedures, test cases, results, identified defects, corrective actions, and overall assessment of the software system. The testing activities were conducted to determine whether the system meets its specified functional, technical, performance, security, usability, compatibility, and reliability requirements."
+    },
+    {
+      "i": 16,
+      "text": "2.2 Testing Objectives"
+    },
+    {
+      "i": 17,
+      "text": "The testing objectives are to:"
+    },
+    {
+      "i": 18,
+      "text": "Verify that all major system functions operate according to specifications."
+    },
+    {
+      "i": 19,
+      "text": "Identify defects, errors, and unexpected system behavior."
+    },
+    {
+      "i": 20,
+      "text": "Evaluate system performance under defined conditions."
+    },
+    {
+      "i": 21,
+      "text": "Verify compatibility across supported devices, browsers, and operating environments."
+    },
+    {
+      "i": 22,
+      "text": "Assess system security and access-control mechanisms."
+    },
+    {
+      "i": 23,
+      "text": "Verify database operations and data integrity."
+    },
+    {
+      "i": 24,
+      "text": "Evaluate the system against applicable software quality standards."
+    },
+    {
+      "i": 25,
+      "text": "Confirm that identified defects have been corrected and retested."
+    },
+    {
+      "i": 26,
+      "text": "Determine whether the software is ready for deployment or user evaluation."
+    },
+    {
+      "i": 27,
+      "text": ""
+    },
+    {
+      "i": 28,
+      "text": "3. System Overview"
+    },
+    {
+      "i": 29,
+      "text": "3.1 System Description"
+    },
+    {
+      "i": 30,
+      "text": "System Name: ______________________________"
+    },
+    {
+      "i": 31,
+      "text": "Description:"
+    },
+    {
+      "i": 32,
+      "text": ""
+    },
+    {
+      "i": 33,
+      "text": "3.2 Intended Users"
+    },
+    {
+      "i": 34,
+      "text": "3.3 Major System Modules"
+    },
+    {
+      "i": 35,
+      "text": ""
+    },
+    {
+      "i": 36,
+      "text": "4. Testing Scope"
+    },
+    {
+      "i": 37,
+      "text": "4.1 In-Scope"
+    },
+    {
+      "i": 38,
+      "text": "The following components were included in testing:"
+    },
+    {
+      "i": 39,
+      "text": "User registration and authentication"
+    },
+    {
+      "i": 40,
+      "text": "Login/logout"
+    },
+    {
+      "i": 41,
+      "text": "User account management"
+    },
+    {
+      "i": 42,
+      "text": "Core application functions"
+    },
+    {
+      "i": 43,
+      "text": "Database operations"
+    },
+    {
+      "i": 44,
+      "text": "Input validation"
+    },
+    {
+      "i": 45,
+      "text": "Error handling"
+    },
+    {
+      "i": 46,
+      "text": "Navigation"
+    },
+    {
+      "i": 47,
+      "text": "API integration"
+    },
+    {
+      "i": 48,
+      "text": "Security mechanisms"
+    },
+    {
+      "i": 49,
+      "text": "Performance"
+    },
+    {
+      "i": 50,
+      "text": "Browser/device compatibility"
+    },
+    {
+      "i": 51,
+      "text": "Data storage and retrieval"
+    },
+    {
+      "i": 52,
+      "text": "Reports and outputs"
+    },
+    {
+      "i": 53,
+      "text": "4.2 Out-of-Scope"
+    },
+    {
+      "i": 54,
+      "text": "The following were excluded from the current testing cycle:"
+    },
+    {
+      "i": 55,
+      "text": ""
+    },
+    {
+      "i": 56,
+      "text": ""
+    },
+    {
+      "i": 57,
+      "text": "5. Testing Methodology"
+    },
+    {
+      "i": 58,
+      "text": "The testing process followed a structured testing approach consisting of:"
+    },
+    {
+      "i": 59,
+      "text": "Requirements \u2192 Test Planning \u2192 Test Case Development \u2192 Test Execution \u2192 Defect Identification \u2192 Correction \u2192 Retesting \u2192 Final Evaluation"
+    },
+    {
+      "i": 60,
+      "text": "Testing Types"
+    },
+    {
+      "i": 61,
+      "text": ""
+    },
+    {
+      "i": 62,
+      "text": "6. Test Environment"
+    },
+    {
+      "i": 63,
+      "text": "6.1 Hardware Environment"
+    },
+    {
+      "i": 64,
+      "text": "6.2 Software Environment"
+    },
+    {
+      "i": 65,
+      "text": ""
+    },
+    {
+      "i": 66,
+      "text": "7. Test Data"
+    },
+    {
+      "i": 67,
+      "text": "Describe the data used during testing."
+    },
+    {
+      "i": 68,
+      "text": ""
+    },
+    {
+      "i": 69,
+      "text": "8. Functional Test Cases"
+    },
+    {
+      "i": 70,
+      "text": "Test Case Format"
+    },
+    {
+      "i": 71,
+      "text": "Functional Testing Summary"
+    },
+    {
+      "i": 72,
+      "text": ""
+    },
+    {
+      "i": 73,
+      "text": "9. Input Validation Testing"
+    },
+    {
+      "i": 74,
+      "text": ""
+    },
+    {
+      "i": 75,
+      "text": "10. Database Testing"
+    },
+    {
+      "i": 76,
+      "text": "10.1 Database Operations"
+    },
+    {
+      "i": 77,
+      "text": "10.2 Data Integrity"
+    },
+    {
+      "i": 78,
+      "text": "Verify:"
+    },
+    {
+      "i": 79,
+      "text": "\u2610 Primary key integrity"
+    },
+    {
+      "i": 80,
+      "text": "\u2610 Foreign key integrity"
+    },
+    {
+      "i": 81,
+      "text": "\u2610 Referential integrity"
+    },
+    {
+      "i": 82,
+      "text": "\u2610 Required fields"
+    },
+    {
+      "i": 83,
+      "text": "\u2610 Data type consistency"
+    },
+    {
+      "i": 84,
+      "text": "\u2610 Duplicate prevention"
+    },
+    {
+      "i": 85,
+      "text": "\u2610 Transaction consistency"
+    },
+    {
+      "i": 86,
+      "text": "\u2610 Backup/recovery"
+    },
+    {
+      "i": 87,
+      "text": ""
+    },
+    {
+      "i": 88,
+      "text": "11. API / External Service Testing"
+    },
+    {
+      "i": 89,
+      "text": "For systems using APIs, cloud services, AI/LLM services, or third-party services:"
+    },
+    {
+      "i": 90,
+      "text": "API Evaluation"
+    },
+    {
+      "i": 91,
+      "text": "\u2610 Successful requests"
+    },
+    {
+      "i": 92,
+      "text": "\u2610 Invalid requests handled"
+    },
+    {
+      "i": 93,
+      "text": "\u2610 Authentication verified"
+    },
+    {
+      "i": 94,
+      "text": "\u2610 Timeout handling"
+    },
+    {
+      "i": 95,
+      "text": "\u2610 Error handling"
+    },
+    {
+      "i": 96,
+      "text": "\u2610 Response validation"
+    },
+    {
+      "i": 97,
+      "text": "\u2610 Rate-limit handling"
+    },
+    {
+      "i": 98,
+      "text": "\u2610 Service failure handling"
+    },
+    {
+      "i": 99,
+      "text": ""
+    },
+    {
+      "i": 100,
+      "text": "12. Performance Testing"
+    },
+    {
+      "i": 101,
+      "text": "Performance Metrics"
+    },
+    {
+      "i": 102,
+      "text": "Average response time: __________"
+    },
+    {
+      "i": 103,
+      "text": "Minimum response time: __________"
+    },
+    {
+      "i": 104,
+      "text": "Maximum response time: __________"
+    },
+    {
+      "i": 105,
+      "text": "Number of concurrent users: __________"
+    },
+    {
+      "i": 106,
+      "text": "Error rate: __________"
+    },
+    {
+      "i": 107,
+      "text": "System availability: __________"
+    },
+    {
+      "i": 108,
+      "text": ""
+    },
+    {
+      "i": 109,
+      "text": "13. Security Testing"
+    },
+    {
+      "i": 110,
+      "text": ""
+    },
+    {
+      "i": 111,
+      "text": "14. Compatibility Testing"
+    },
+    {
+      "i": 112,
+      "text": "Browser Compatibility"
+    },
+    {
+      "i": 113,
+      "text": "Device Compatibility"
+    },
+    {
+      "i": 114,
+      "text": ""
+    },
+    {
+      "i": 115,
+      "text": "15. Usability and User Interface Testing"
+    },
+    {
+      "i": 116,
+      "text": ""
+    },
+    {
+      "i": 117,
+      "text": "16. ISO/IEC 25010 Software Quality Evaluation"
+    },
+    {
+      "i": 118,
+      "text": "If the technical testing is aligned with ISO/IEC 25010, the following characteristics can be included:"
+    },
+    {
+      "i": 119,
+      "text": "Note: The exact ISO/IEC 25010 edition and terminology used should be stated in the methodology, because the quality model has been revised across editions."
+    },
+    {
+      "i": 120,
+      "text": ""
+    },
+    {
+      "i": 121,
+      "text": "17. Defect / Bug Report"
+    },
+    {
+      "i": 122,
+      "text": "Severity Classification"
+    },
+    {
+      "i": 123,
+      "text": ""
+    },
+    {
+      "i": 124,
+      "text": "18. Corrective Action and Retesting"
+    },
+    {
+      "i": 125,
+      "text": ""
+    },
+    {
+      "i": 126,
+      "text": "19. Regression Testing"
+    },
+    {
+      "i": 127,
+      "text": "Regression testing was conducted after corrections and system modifications to determine whether previously functioning features remained operational."
+    },
+    {
+      "i": 128,
+      "text": ""
+    },
+    {
+      "i": 129,
+      "text": "20. Testing Results Summary"
+    },
+    {
+      "i": 130,
+      "text": "Pass Rate Formula"
+    },
+    {
+      "i": 131,
+      "text": "Pass Rate = (Number of Passed Test Cases \u00f7 Total Test Cases) \u00d7 100"
+    },
+    {
+      "i": 132,
+      "text": ""
+    },
+    {
+      "i": 133,
+      "text": "21. Overall Technical Assessment"
+    },
+    {
+      "i": 134,
+      "text": "Overall Testing Result"
+    },
+    {
+      "i": 135,
+      "text": "\u2610 Passed \u2013 Ready for Deployment"
+    },
+    {
+      "i": 136,
+      "text": "\u2610 Passed with Minor Issues"
+    },
+    {
+      "i": 137,
+      "text": "\u2610 For Further Improvement"
+    },
+    {
+      "i": 138,
+      "text": "\u2610 Failed \u2013 Major Corrections Required"
+    },
+    {
+      "i": 139,
+      "text": "Technical Assessment"
+    },
+    {
+      "i": 140,
+      "text": "Based on the testing activities conducted, the software system:"
+    },
+    {
+      "i": 141,
+      "text": ""
+    },
+    {
+      "i": 142,
+      "text": "The identified defects and issues were:"
+    },
+    {
+      "i": 143,
+      "text": ""
+    },
+    {
+      "i": 144,
+      "text": "The system is therefore assessed as:"
+    },
+    {
+      "i": 145,
+      "text": "\u2610 Technically Acceptable \u2610 Acceptable with Minor Revisions \u2610 Requires Further Testing \u2610 Not Acceptable"
+    },
+    {
+      "i": 146,
+      "text": ""
+    },
+    {
+      "i": 147,
+      "text": "22. Recommendations"
+    },
+    {
+      "i": 148,
+      "text": "Based on the testing results, the following recommendations are proposed:"
+    },
+    {
+      "i": 149,
+      "text": ""
+    },
+    {
+      "i": 150,
+      "text": ""
+    },
+    {
+      "i": 151,
+      "text": ""
+    },
+    {
+      "i": 152,
+      "text": ""
+    },
+    {
+      "i": 153,
+      "text": ""
+    },
+    {
+      "i": 154,
+      "text": ""
+    },
+    {
+      "i": 155,
+      "text": "23. Testing Approval"
+    },
+    {
+      "i": 156,
+      "text": ""
+    },
+    {
+      "i": 157,
+      "text": "24. Appendices"
+    },
+    {
+      "i": 158,
+      "text": "Appendix A \u2013 Test Case Documentation"
+    },
+    {
+      "i": 159,
+      "text": "Attach complete test cases."
+    },
+    {
+      "i": 160,
+      "text": "Appendix B \u2013 Screenshots of Testing"
+    },
+    {
+      "i": 161,
+      "text": "Include screenshots showing:"
+    },
+    {
+      "i": 162,
+      "text": "Successful test execution"
+    },
+    {
+      "i": 163,
+      "text": "Failed test cases"
+    },
+    {
+      "i": 164,
+      "text": "Error messages"
+    },
+    {
+      "i": 165,
+      "text": "Corrective actions"
+    },
+    {
+      "i": 166,
+      "text": "Retesting results"
+    },
+    {
+      "i": 167,
+      "text": "Appendix C \u2013 System Logs"
+    },
+    {
+      "i": 168,
+      "text": "Include relevant:"
+    },
+    {
+      "i": 169,
+      "text": "Application logs"
+    },
+    {
+      "i": 170,
+      "text": "API logs"
+    },
+    {
+      "i": 171,
+      "text": "Error logs"
+    },
+    {
+      "i": 172,
+      "text": "Database logs"
+    },
+    {
+      "i": 173,
+      "text": "Performance logs"
+    },
+    {
+      "i": 174,
+      "text": "Appendix D \u2013 Test Environment"
+    },
+    {
+      "i": 175,
+      "text": "Provide detailed hardware and software specifications."
+    },
+    {
+      "i": 176,
+      "text": "Appendix E \u2013 Defect Documentation"
+    },
+    {
+      "i": 177,
+      "text": "Attach detailed bug reports and corrective-action records."
+    },
+    {
+      "i": 178,
+      "text": ""
+    }
+  ],
+  "tables": [
+    {
+      "i": 0,
+      "rows": 10,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"3300\"/><w:gridCol w:w=\"5685\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"3300\"/><w:gridCol w:w=\"5685\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 1,
+      "rows": 5,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1575\"/><w:gridCol w:w=\"2700\"/><w:gridCol w:w=\"2250\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1575\"/><w:gridCol w:w=\"2700\"/><w:gridCol w:w=\"2250\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 2,
+      "rows": 8,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"585\"/><w:gridCol w:w=\"2715\"/><w:gridCol w:w=\"7140\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"585\"/><w:gridCol w:w=\"2715\"/><w:gridCol w:w=\"7140\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 3,
+      "rows": 13,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"2615\"/><w:gridCol w:w=\"4250\"/><w:gridCol w:w=\"1460\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"2615\"/><w:gridCol w:w=\"4250\"/><w:gridCol w:w=\"1460\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 4,
+      "rows": 7,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"2070\"/><w:gridCol w:w=\"7305\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"2070\"/><w:gridCol w:w=\"7305\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 5,
+      "rows": 9,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"2550\"/><w:gridCol w:w=\"6555\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"2550\"/><w:gridCol w:w=\"6555\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 6,
+      "rows": 6,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"2475\"/><w:gridCol w:w=\"3900\"/><w:gridCol w:w=\"4335\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"2475\"/><w:gridCol w:w=\"3900\"/><w:gridCol w:w=\"4335\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 7,
+      "rows": 11,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1890\"/><w:gridCol w:w=\"7845\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1890\"/><w:gridCol w:w=\"7845\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 8,
+      "rows": 7,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1395\"/><w:gridCol w:w=\"1395\"/><w:gridCol w:w=\"2775\"/><w:gridCol w:w=\"2640\"/><w:gridCol w:w=\"2295\"/><w:gridCol w:w=\"2235\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1395\"/><w:gridCol w:w=\"1395\"/><w:gridCol w:w=\"2775\"/><w:gridCol w:w=\"2640\"/><w:gridCol w:w=\"2295\"/><w:gridCol w:w=\"2235\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 9,
+      "rows": 6,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"930\"/><w:gridCol w:w=\"1605\"/><w:gridCol w:w=\"1905\"/><w:gridCol w:w=\"2505\"/><w:gridCol w:w=\"1830\"/><w:gridCol w:w=\"3540\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"930\"/><w:gridCol w:w=\"1605\"/><w:gridCol w:w=\"1905\"/><w:gridCol w:w=\"2505\"/><w:gridCol w:w=\"1830\"/><w:gridCol w:w=\"3540\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 10,
+      "rows": 6,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1005\"/><w:gridCol w:w=\"1275\"/><w:gridCol w:w=\"2460\"/><w:gridCol w:w=\"2835\"/><w:gridCol w:w=\"2055\"/><w:gridCol w:w=\"2340\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1005\"/><w:gridCol w:w=\"1275\"/><w:gridCol w:w=\"2460\"/><w:gridCol w:w=\"2835\"/><w:gridCol w:w=\"2055\"/><w:gridCol w:w=\"2340\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 11,
+      "rows": 4,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1050\"/><w:gridCol w:w=\"1455\"/><w:gridCol w:w=\"2085\"/><w:gridCol w:w=\"1530\"/><w:gridCol w:w=\"1920\"/><w:gridCol w:w=\"4140\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1050\"/><w:gridCol w:w=\"1455\"/><w:gridCol w:w=\"2085\"/><w:gridCol w:w=\"1530\"/><w:gridCol w:w=\"1920\"/><w:gridCol w:w=\"4140\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 12,
+      "rows": 6,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"975\"/><w:gridCol w:w=\"2310\"/><w:gridCol w:w=\"2580\"/><w:gridCol w:w=\"2010\"/><w:gridCol w:w=\"2070\"/><w:gridCol w:w=\"3045\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"975\"/><w:gridCol w:w=\"2310\"/><w:gridCol w:w=\"2580\"/><w:gridCol w:w=\"2010\"/><w:gridCol w:w=\"2070\"/><w:gridCol w:w=\"3045\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 13,
+      "rows": 7,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1050\"/><w:gridCol w:w=\"1650\"/><w:gridCol w:w=\"3270\"/><w:gridCol w:w=\"2565\"/><w:gridCol w:w=\"1890\"/><w:gridCol w:w=\"2685\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1050\"/><w:gridCol w:w=\"1650\"/><w:gridCol w:w=\"3270\"/><w:gridCol w:w=\"2565\"/><w:gridCol w:w=\"1890\"/><w:gridCol w:w=\"2685\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 14,
+      "rows": 5,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1770\"/><w:gridCol w:w=\"1005\"/><w:gridCol w:w=\"2040\"/><w:gridCol w:w=\"2475\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1770\"/><w:gridCol w:w=\"1005\"/><w:gridCol w:w=\"2040\"/><w:gridCol w:w=\"2475\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 15,
+      "rows": 5,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1380\"/><w:gridCol w:w=\"1470\"/><w:gridCol w:w=\"1380\"/><w:gridCol w:w=\"2925\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1380\"/><w:gridCol w:w=\"1470\"/><w:gridCol w:w=\"1380\"/><w:gridCol w:w=\"2925\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 16,
+      "rows": 7,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"975\"/><w:gridCol w:w=\"2160\"/><w:gridCol w:w=\"2745\"/><w:gridCol w:w=\"1620\"/><w:gridCol w:w=\"2700\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"975\"/><w:gridCol w:w=\"2160\"/><w:gridCol w:w=\"2745\"/><w:gridCol w:w=\"1620\"/><w:gridCol w:w=\"2700\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 17,
+      "rows": 10,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"2585\"/><w:gridCol w:w=\"5855\"/><w:gridCol w:w=\"950\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"2585\"/><w:gridCol w:w=\"5855\"/><w:gridCol w:w=\"950\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 18,
+      "rows": 4,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1215\"/><w:gridCol w:w=\"1560\"/><w:gridCol w:w=\"2445\"/><w:gridCol w:w=\"2940\"/><w:gridCol w:w=\"2025\"/><w:gridCol w:w=\"1215\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1215\"/><w:gridCol w:w=\"1560\"/><w:gridCol w:w=\"2445\"/><w:gridCol w:w=\"2940\"/><w:gridCol w:w=\"2025\"/><w:gridCol w:w=\"1215\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 19,
+      "rows": 5,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1100\"/><w:gridCol w:w=\"7175\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1100\"/><w:gridCol w:w=\"7175\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 20,
+      "rows": 4,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1200\"/><w:gridCol w:w=\"2790\"/><w:gridCol w:w=\"1200\"/><w:gridCol w:w=\"1305\"/><w:gridCol w:w=\"3330\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1200\"/><w:gridCol w:w=\"2790\"/><w:gridCol w:w=\"1200\"/><w:gridCol w:w=\"1305\"/><w:gridCol w:w=\"3330\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 21,
+      "rows": 6,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1140\"/><w:gridCol w:w=\"3030\"/><w:gridCol w:w=\"1575\"/><w:gridCol w:w=\"2100\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1140\"/><w:gridCol w:w=\"3030\"/><w:gridCol w:w=\"1575\"/><w:gridCol w:w=\"2100\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 22,
+      "rows": 10,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"1970\"/><w:gridCol w:w=\"1325\"/><w:gridCol w:w=\"920\"/><w:gridCol w:w=\"875\"/><w:gridCol w:w=\"1220\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"1970\"/><w:gridCol w:w=\"1325\"/><w:gridCol w:w=\"920\"/><w:gridCol w:w=\"875\"/><w:gridCol w:w=\"1220\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    },
+    {
+      "i": 23,
+      "rows": 6,
+      "grid": "<w:tblGrid xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\" xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:lc=\"http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas\" xmlns:dgm=\"http://schemas.openxmlformats.org/drawingml/2006/diagram\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns=\"http://schemas.microsoft.com/office/tasks/2019/documenttasks\" xmlns:cr=\"http://schemas.microsoft.com/office/comments/2020/reactions\"><w:gridCol w:w=\"2340\"/><w:gridCol w:w=\"1770\"/><w:gridCol w:w=\"2025\"/><w:gridCol w:w=\"2160\"/><w:tblGridChange w:id=\"0\"><w:tblGrid><w:gridCol w:w=\"2340\"/><w:gridCol w:w=\"1770\"/><w:gridCol w:w=\"2025\"/><w:gridCol w:w=\"2160\"/></w:tblGrid></w:tblGridChange></w:tblGrid>"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+9:32:24 AM [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > request src/services/api.js:9:26
+    7  |  async function request(path, options = {}) {
+    8  |    const isForm = options.body instanceof FormData;
+    9  |    const response = await fetch(`${API_URL}${path}`, {
+       |                            ^
+    10 |      ...options,
+    11 |      headers: {
+ > Object.quizGameTeacherDashboard src/services/api.js:79:35
+ > src/pages/teacher/TeacherQuizGame.jsx:162:29
+ > withLoading src/pages/teacher/TeacherQuizGame.jsx:154:19
+ > loadDashboard src/pages/teacher/TeacherQuizGame.jsx:161:10
+ > src/pages/teacher/TeacherQuizGame.jsx:147:4
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25989:19
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > commitHookEffectListMount node_modules/react-dom/cjs/react-dom-client.development.js:13249:28
+ > commitHookPassiveMountEffects node_modules/react-dom/cjs/react-dom-client.development.js:13336:10
+
+9:32:24 AM [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > request src/services/api.js:9:26
+    7  |  async function request(path, options = {}) {
+    8  |    const isForm = options.body instanceof FormData;
+    9  |    const response = await fetch(`${API_URL}${path}`, {
+       |                            ^
+    10 |      ...options,
+    11 |      headers: {
+ > Object.quizGameTeacherDashboard src/services/api.js:79:35
+ > src/pages/teacher/TeacherQuizGame.jsx:162:29
+ > withLoading src/pages/teacher/TeacherQuizGame.jsx:154:19
+ > loadDashboard src/pages/teacher/TeacherQuizGame.jsx:161:10
+ > src/pages/teacher/TeacherQuizGame.jsx:147:4
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25989:19
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > commitHookEffectListMount node_modules/react-dom/cjs/react-dom-client.development.js:13249:28
+ > commitHookPassiveMountEffects node_modules/react-dom/cjs/react-dom-client.development.js:13336:10
+
+9:35:47 AM [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > request src/services/api.js:9:26
+    7  |  async function request(path, options = {}) {
+    8  |    const isForm = options.body instanceof FormData;
+    9  |    const response = await fetch(`${API_URL}${path}`, {
+       |                            ^
+    10 |      ...options,
+    11 |      headers: {
+ > Object.quizGameTeacherDashboard src/services/api.js:79:35
+ > src/pages/teacher/TeacherQuizGame.jsx:162:29
+ > withLoading src/pages/teacher/TeacherQuizGame.jsx:154:19
+ > loadDashboard src/pages/teacher/TeacherQuizGame.jsx:161:10
+ > src/pages/teacher/TeacherQuizGame.jsx:147:4
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25989:19
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > commitHookEffectListMount node_modules/react-dom/cjs/react-dom-client.development.js:13249:28
+ > commitHookPassiveMountEffects node_modules/react-dom/cjs/react-dom-client.development.js:13336:10
+
+9:35:47 AM [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > request src/services/api.js:9:26
+    7  |  async function request(path, options = {}) {
+    8  |    const isForm = options.body instanceof FormData;
+    9  |    const response = await fetch(`${API_URL}${path}`, {
+       |                            ^
+    10 |      ...options,
+    11 |      headers: {
+ > Object.quizGameTeacherDashboard src/services/api.js:79:35
+ > src/pages/teacher/TeacherQuizGame.jsx:162:29
+ > withLoading src/pages/teacher/TeacherQuizGame.jsx:154:19
+ > loadDashboard src/pages/teacher/TeacherQuizGame.jsx:161:10
+ > src/pages/teacher/TeacherQuizGame.jsx:147:4
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:25989:19
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > commitHookEffectListMount node_modules/react-dom/cjs/react-dom-client.development.js:13249:28
+ > commitHookPassiveMountEffects node_modules/react-dom/cjs/react-dom-client.development.js:13336:10
+
